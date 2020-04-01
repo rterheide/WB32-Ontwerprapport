@@ -1,0 +1,564 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global}
+    \entry{123accu.nl}{misc}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labeldatesource}{nodate}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{123accu.nl}
+      \field{title}{123accu.nl}
+      \verb{urlraw}
+      \verb https://www.123accu.nl/Compex-941210-4H-AA1500-accu-2000-mAh-123accu-huismerk-i30726.html?mkwid=sZSzo9vvv_dc|pcrid|301565316883|pkw||pmt||slid||prid|ACO00378_4894128116097&pgrid=64202838470&ptaid=pla-537897737742&gclid=Cj0KCQjw0pfzBRCOARIsANi0g0sjYN4GzXMnAm6T0rVEC-LYYQw4KMN__5xkx99T2hBYqn1Nj35H9bcaAsyBEALw_wcB
+      \endverb
+      \verb{url}
+      \verb https://www.123accu.nl/Compex-941210-4H-AA1500-accu-2000-mAh-123accu-huismerk-i30726.html?mkwid=sZSzo9vvv_dc%7Cpcrid%7C301565316883%7Cpkw%7C%7Cpmt%7C%7Cslid%7C%7Cprid%7CACO00378_4894128116097&pgrid=64202838470&ptaid=pla-537897737742&gclid=Cj0KCQjw0pfzBRCOARIsANi0g0sjYN4GzXMnAm6T0rVEC-LYYQw4KMN__5xkx99T2hBYqn1Nj35H9bcaAsyBEALw_wcB
+      \endverb
+    \endentry
+    \entry{123}{misc}{}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{labeldatesource}{nodate}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{123}
+      \field{title}{3D-printers: kits: parts: filament}
+      \verb{urlraw}
+      \verb https://www.123-3d.nl/123-3D-Leadscrew-TR8x2-8-mm-100-cm-i2252-t9712.html?mkwid=sUHDk9lFI_dc|pcrid|301311135541|pkw||pmt||slid||prid|DLS00009_8718237055312_&pgrid=63047612794&ptaid=pla-347448349375&gclid=CjwKCAjwvOHzBRBoEiwA48i6AhUXz0IvzlFwoRFXnU_P3OWIOSThcjzoHmbkrn5QmXxMg47AvZl_kxoCuJ0QAvD_BwE
+      \endverb
+      \verb{url}
+      \verb https://www.123-3d.nl/123-3D-Leadscrew-TR8x2-8-mm-100-cm-i2252-t9712.html?mkwid=sUHDk9lFI_dc%7Cpcrid%7C301311135541%7Cpkw%7C%7Cpmt%7C%7Cslid%7C%7Cprid%7CDLS00009_8718237055312_&pgrid=63047612794&ptaid=pla-347448349375&gclid=CjwKCAjwvOHzBRBoEiwA48i6AhUXz0IvzlFwoRFXnU_P3OWIOSThcjzoHmbkrn5QmXxMg47AvZl_kxoCuJ0QAvD_BwE
+      \endverb
+    \endentry
+    \entry{ijzershop.nl}{misc}{}
+      \field{sortinit}{a}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{labeldatesource}{nodate}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{ijzershop.nl}
+      \field{title}{aluminium blok 100x50x25mm kopen? Slechts € 5,69 incl. BTW}
+      \verb{urlraw}
+      \verb https://www.ijzershop.nl/aluminium-blok/4265-aluminium-freesblok-100x50x25.html?gclid=CjwKCAjwvOHzBRBoEiwA48i6AjxmfD-DxabWnUIyHXBNUAN0ifeHNLHWEuSzFBF5VgzIEQx-KXfPoRoCsV4QAvD_BwE
+      \endverb
+      \verb{url}
+      \verb https://www.ijzershop.nl/aluminium-blok/4265-aluminium-freesblok-100x50x25.html?gclid=CjwKCAjwvOHzBRBoEiwA48i6AjxmfD-DxabWnUIyHXBNUAN0ifeHNLHWEuSzFBF5VgzIEQx-KXfPoRoCsV4QAvD_BwE
+      \endverb
+    \endentry
+    \entry{amazon.de_RC_REMOTE}{misc}{}
+      \field{sortinit}{A}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Amazon.de: Gewerbe, Industrie & Wissenschaft}
+      \field{title}{AZDelivery}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://www.amazon.de/gp/product/B075DBDS3J/ref=ppx_yo_dt_b_asin_title_o02_s00?ie=UTF8&th=1
+      \endverb
+      \verb{url}
+      \verb https://www.amazon.de/gp/product/B075DBDS3J/ref=ppx_yo_dt_b_asin_title_o02_s00?ie=UTF8&th=1
+      \endverb
+    \endentry
+    \entry{beek_2020_opdracht}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=895492ad6c23fc8d19f185ece0f0de9f}{%
+           family={Beek},
+           familyi={B\bibinitperiod},
+           given={Anton\bibnamedelima van},
+           giveni={A\bibinitperiod\bibinitdelim v\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{895492ad6c23fc8d19f185ece0f0de9f}
+      \strng{fullhash}{895492ad6c23fc8d19f185ece0f0de9f}
+      \strng{bibnamehash}{895492ad6c23fc8d19f185ece0f0de9f}
+      \strng{authorbibnamehash}{895492ad6c23fc8d19f185ece0f0de9f}
+      \strng{authornamehash}{895492ad6c23fc8d19f185ece0f0de9f}
+      \strng{authorfullhash}{895492ad6c23fc8d19f185ece0f0de9f}
+      \field{extraname}{1}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Pakkethondje}
+      \field{title}{Pakkethondje}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://project.3me.tudelft.nl/Pakkethondje/index.htm
+      \endverb
+      \verb{url}
+      \verb https://project.3me.tudelft.nl/Pakkethondje/index.htm
+      \endverb
+    \endentry
+    \entry{beek_2020_wedstrijdregelement}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=895492ad6c23fc8d19f185ece0f0de9f}{%
+           family={Beek},
+           familyi={B\bibinitperiod},
+           given={Anton\bibnamedelima van},
+           giveni={A\bibinitperiod\bibinitdelim v\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{895492ad6c23fc8d19f185ece0f0de9f}
+      \strng{fullhash}{895492ad6c23fc8d19f185ece0f0de9f}
+      \strng{bibnamehash}{895492ad6c23fc8d19f185ece0f0de9f}
+      \strng{authorbibnamehash}{895492ad6c23fc8d19f185ece0f0de9f}
+      \strng{authornamehash}{895492ad6c23fc8d19f185ece0f0de9f}
+      \strng{authorfullhash}{895492ad6c23fc8d19f185ece0f0de9f}
+      \field{extraname}{2}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Wedstrijdregelement}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://project.3me.tudelft.nl/Pakkethondje/reglement.htm
+      \endverb
+      \verb{url}
+      \verb https://project.3me.tudelft.nl/Pakkethondje/reglement.htm
+      \endverb
+    \endentry
+    \entry{coelho_2011}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=2be91d49684fcf19a60c2392c3aeeb1d}{%
+           family={Coelho},
+           familyi={C\bibinitperiod},
+           given={Denis\bibnamedelima A.},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {InTech}%
+      }
+      \strng{namehash}{2be91d49684fcf19a60c2392c3aeeb1d}
+      \strng{fullhash}{2be91d49684fcf19a60c2392c3aeeb1d}
+      \strng{bibnamehash}{2be91d49684fcf19a60c2392c3aeeb1d}
+      \strng{authorbibnamehash}{2be91d49684fcf19a60c2392c3aeeb1d}
+      \strng{authornamehash}{2be91d49684fcf19a60c2392c3aeeb1d}
+      \strng{authorfullhash}{2be91d49684fcf19a60c2392c3aeeb1d}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Industrial design: new frontiers}
+      \field{year}{2011}
+    \endentry
+    \entry{Conrad}{misc}{}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labeldatesource}{nodate}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Conrad}
+      \field{title}{Conrad Electronic}
+      \verb{urlraw}
+      \verb https://www.conrad.nl/
+      \endverb
+      \verb{url}
+      \verb https://www.conrad.nl/
+      \endverb
+    \endentry
+    \entry{hornbach}{misc}{}
+      \field{sortinit}{D}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \field{labeldatesource}{nodate}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{hornbach}
+      \field{title}{DRESSELHAUS Borgring 6 mm DIN 6799 staal, 100 stuks}
+      \verb{urlraw}
+      \verb https://www.hornbach.nl/shop/DREssELHAUS-Borgring-6-mm-DIN-6799-staal-100-stuks/7633148/artikel.html
+      \endverb
+      \verb{url}
+      \verb https://www.hornbach.nl/shop/DREssELHAUS-Borgring-6-mm-DIN-6799-staal-100-stuks/7633148/artikel.html
+      \endverb
+    \endentry
+    \entry{electronic}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=90c89c321aaf8f67643aad995df41cbb}{%
+           family={Electronic},
+           familyi={E\bibinitperiod},
+           given={Conrad},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{90c89c321aaf8f67643aad995df41cbb}
+      \strng{fullhash}{90c89c321aaf8f67643aad995df41cbb}
+      \strng{bibnamehash}{90c89c321aaf8f67643aad995df41cbb}
+      \strng{authorbibnamehash}{90c89c321aaf8f67643aad995df41cbb}
+      \strng{authornamehash}{90c89c321aaf8f67643aad995df41cbb}
+      \strng{authorfullhash}{90c89c321aaf8f67643aad995df41cbb}
+      \field{sortinit}{E}
+      \field{sortinithash}{c554bd1a0b76ea92b9f105fe36d9c7b0}
+      \field{labeldatesource}{nodate}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Conrad}
+      \field{title}{igus GFM-0608-06 Glijlager Boordiameter 6 mm}
+      \verb{urlraw}
+      \verb https://www.conrad.nl/p/igus-gfm-0608-06-glijlager-boordiameter-6-mm-1416573
+      \endverb
+      \verb{url}
+      \verb https://www.conrad.nl/p/igus-gfm-0608-06-glijlager-boordiameter-6-mm-1416573
+      \endverb
+    \endentry
+    \entry{amazon.nl}{misc}{}
+      \field{sortinit}{E}
+      \field{sortinithash}{c554bd1a0b76ea92b9f105fe36d9c7b0}
+      \field{labeldatesource}{nodate}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Amazon.nl}
+      \field{title}{EsportsMJJ 18V 3.0Ah Lithium Battery Protection PCB Board voor Makita BL1840 BL1830 BL1830}
+      \verb{urlraw}
+      \verb https://www.amazon.nl/EsportsMJJ-Lithium-Battery-Protection-Makita/dp/B07M7JW421/ref=sr_1_2?__mk_nl_NL=ÅMÅŽÕÑ&keywords=18v+battery&qid=1584971048&sr=8-2
+      \endverb
+      \verb{url}
+      \verb https://www.amazon.nl/EsportsMJJ-Lithium-Battery-Protection-Makita/dp/B07M7JW421/ref=sr_1_2?__mk_nl_NL=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=18v+battery&qid=1584971048&sr=8-2
+      \endverb
+    \endentry
+    \entry{gamma}{misc}{}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{labeldatesource}{nodate}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{GAMMA}
+      \field{title}{GAMMA metaalschroef M4 x 20mm cilinderkop verzinkt 15 stuks kopen?: bouten}
+      \verb{urlraw}
+      \verb https://www.gamma.nl/assortiment/gamma-metaalschroef-m4-x-20mm-cilinderkop-verzinkt-15-stuks/p/B458192
+      \endverb
+      \verb{url}
+      \verb https://www.gamma.nl/assortiment/gamma-metaalschroef-m4-x-20mm-cilinderkop-verzinkt-15-stuks/p/B458192
+      \endverb
+    \endentry
+    \entry{hanus_hagger_proffitt_barnes}{misc}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=9468bb462a174e2fdf5d01431dc32976}{%
+           family={Hanus},
+           familyi={H\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=84f53008ba9bc592e4e44337f426fdec}{%
+           family={Hagger},
+           familyi={H\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=246f1bfcbb7e591c85b638bfb20222f0}{%
+           family={Proffitt},
+           familyi={P\bibinitperiod},
+           given={Zach},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=89c16730ab7a0ccb41c12eed097b412e}{%
+           family={Barnes},
+           familyi={B\bibinitperiod},
+           given={Gordon},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ef57e92aff4cd606019da185e8f3ded2}
+      \strng{fullhash}{6a77234747afe6dc46d12d6f1dba0be5}
+      \strng{bibnamehash}{6a77234747afe6dc46d12d6f1dba0be5}
+      \strng{authorbibnamehash}{6a77234747afe6dc46d12d6f1dba0be5}
+      \strng{authornamehash}{ef57e92aff4cd606019da185e8f3ded2}
+      \strng{authorfullhash}{6a77234747afe6dc46d12d6f1dba0be5}
+      \field{sortinit}{H}
+      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
+      \field{labeldatesource}{nodate}
+      \field{labelnamesource}{author}
+    \endentry
+    \entry{hurley_marshall_hogan_wells_2012}{misc}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=6c800f2bf1841c50b014133ee642ca8c}{%
+           family={Hurley},
+           familyi={H\bibinitperiod},
+           given={Kevin},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7214cf3cfe7ca26865639bbcf52b4639}{%
+           family={Marshall},
+           familyi={M\bibinitperiod},
+           given={Jennifer},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e9d84170d70abf6ad70c7528c1440875}{%
+           family={Hogan},
+           familyi={H\bibinitperiod},
+           given={Kelly},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=184a444a350512e3b3df053e97df3484}{%
+           family={Wells},
+           familyi={W\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{d828e184f3675abeba456a3d03f6b787}
+      \strng{fullhash}{0810d79f8c9bcce1496ab5883cd46e89}
+      \strng{bibnamehash}{0810d79f8c9bcce1496ab5883cd46e89}
+      \strng{authorbibnamehash}{0810d79f8c9bcce1496ab5883cd46e89}
+      \strng{authornamehash}{d828e184f3675abeba456a3d03f6b787}
+      \strng{authorfullhash}{0810d79f8c9bcce1496ab5883cd46e89}
+      \field{sortinit}{H}
+      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Industrial Ergonomics}
+      \field{month}{5}
+      \field{title}{A comparison of productivity and physical demands during parcel delivery using a standard and a prototype electric courier truck}
+      \field{year}{2012}
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0169814112000443
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0169814112000443
+      \endverb
+    \endentry
+    \entry{king-hele_2002}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8b3baf9efd5baba519bf21d8f8feaca9}{%
+           family={King-Hele},
+           familyi={K\bibinithyphendelim H\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{8b3baf9efd5baba519bf21d8f8feaca9}
+      \strng{fullhash}{8b3baf9efd5baba519bf21d8f8feaca9}
+      \strng{bibnamehash}{8b3baf9efd5baba519bf21d8f8feaca9}
+      \strng{authorbibnamehash}{8b3baf9efd5baba519bf21d8f8feaca9}
+      \strng{authornamehash}{8b3baf9efd5baba519bf21d8f8feaca9}
+      \strng{authorfullhash}{8b3baf9efd5baba519bf21d8f8feaca9}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Notes and Records of the Royal Society of London}
+      \field{number}{1}
+      \field{title}{Erasmus Darwins improved design for steering carriages––and cars}
+      \field{volume}{56}
+      \field{year}{2002}
+      \field{pages}{41\bibrangedash 62}
+      \range{pages}{22}
+      \verb{doi}
+      \verb 10.1098/rsnr.2002.0166
+      \endverb
+    \endentry
+    \entry{zwenkwielen_kopen_koop_nu_voordelig_ieder_zwenkwiel_online}{misc}{}
+      \field{sortinit}{L}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{labeldatesource}{nodate}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Zwenkwielen kopen? Koop nu voordelig ieder zwenkwiel online}
+      \field{title}{Los wiel 100 mm tpr band glijlager}
+      \verb{urlraw}
+      \verb https://www.zwenkwielen.net/los-wiel-100-mm-tpr-band-glijlager?gclid=Cj0KCQjwsYb0BRCOARIsAHbLPhGX_cmzWmbTJovKYo_W4vqJ2xPb22PI-ub4ADSxR-IfGSV6FalmpiIaAgeXEALw_wcB
+      \endverb
+      \verb{url}
+      \verb https://www.zwenkwielen.net/los-wiel-100-mm-tpr-band-glijlager?gclid=Cj0KCQjwsYb0BRCOARIsAHbLPhGX_cmzWmbTJovKYo_W4vqJ2xPb22PI-ub4ADSxR-IfGSV6FalmpiIaAgeXEALw_wcB
+      \endverb
+    \endentry
+    \entry{Stuurmechanisme}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=c36f0a9b5d3dc24a206bbf529cc953b1}{%
+           family={Mitchell},
+           familyi={M\bibinitperiod},
+           given={Wm.\bibnamedelimi C.},
+           giveni={W\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6c8de76fbba9206a3d467dac0d94e34d}{%
+           family={Staniforth},
+           familyi={S\bibinitperiod},
+           given={Allan},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=15a963a507f49ad023ed98b9b77a83cc}{%
+           family={Scott},
+           familyi={S\bibinitperiod},
+           given={Ian},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7eb443821789abc5713b49249329ef69}
+      \strng{fullhash}{2dfef866e06069e73bc79a81086317aa}
+      \strng{bibnamehash}{2dfef866e06069e73bc79a81086317aa}
+      \strng{authorbibnamehash}{2dfef866e06069e73bc79a81086317aa}
+      \strng{authornamehash}{7eb443821789abc5713b49249329ef69}
+      \strng{authorfullhash}{2dfef866e06069e73bc79a81086317aa}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{SAE Technical Paper Series}
+      \field{month}{5}
+      \field{title}{Analysis of Ackermann Steering Geometry}
+      \field{year}{2006}
+      \verb{doi}
+      \verb 10.4271/2006-01-3638
+      \endverb
+    \endentry
+    \entry{zwaard_delft}{misc}{}
+      \field{sortinit}{P}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{labeldatesource}{nodate}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Zwaard Delft}
+      \field{title}{Polvo B.V.}
+      \verb{urlraw}
+      \verb https://www.polvobv.nl/nl-nl/zwaard-delft
+      \endverb
+      \verb{url}
+      \verb https://www.polvobv.nl/nl-nl/zwaard-delft
+      \endverb
+    \endentry
+    \entry{pitney_bowes_2018}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=530d1ef0841db3ef2dce31e4de5364f7}{%
+           family={Spadafora},
+           familyi={S\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{530d1ef0841db3ef2dce31e4de5364f7}
+      \strng{fullhash}{530d1ef0841db3ef2dce31e4de5364f7}
+      \strng{bibnamehash}{530d1ef0841db3ef2dce31e4de5364f7}
+      \strng{authorbibnamehash}{530d1ef0841db3ef2dce31e4de5364f7}
+      \strng{authornamehash}{530d1ef0841db3ef2dce31e4de5364f7}
+      \strng{authorfullhash}{530d1ef0841db3ef2dce31e4de5364f7}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Pitney Bowes}
+      \field{title}{Pitney Bowes Parcel Shipping Index}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb https://www.pitneybowes.com/us/shipping-index.html
+      \endverb
+      \verb{url}
+      \verb https://www.pitneybowes.com/us/shipping-index.html
+      \endverb
+    \endentry
+    \entry{r.g._bonitz_nguyen_kim_bonitz_folkner_golombek_olson_spohn_grott_et_al._1970}{misc}{}
+      \name{author}{11}{}{%
+        {{un=0,uniquepart=base,hash=bc24b183960fe66b53fc038c77ce53f4}{%
+           family={Trebi-Ollenu},
+           familyi={T\bibinithyphendelim O\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=f370c20840e18bef7381c64247b50903}{%
+           family={Bonitz},
+           familyi={B\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=39ffe3021bcad0da66bc4efc46ef0360}{%
+           family={Nguyen},
+           familyi={N\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=f55fbaaca148300ac11f7752528cae3d}{%
+           family={Kim},
+           familyi={K\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=f370c20840e18bef7381c64247b50903}{%
+           family={Bonitz},
+           familyi={B\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=ebdc234ed656c371897b6dabee9c9c99}{%
+           family={Folkner},
+           familyi={F\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=3619bf0397dacfbcbc33308efb52c87a}{%
+           family={Golombek},
+           familyi={G\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=dcd1491a6d7e008845beb560e4bbd93d}{%
+           family={Olson},
+           familyi={O\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=017fa60ce77c4072d0b3e199fcfe260b}{%
+           family={Spohn},
+           familyi={S\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=9c8b3bb0879c795bff2598921977c9a2}{%
+           family={Grott},
+           familyi={G\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=38026ba4ee6b102b47bf3ffb41325c8f}{%
+           family={al.},
+           familyi={a\bibinitperiod},
+           prefix={et},
+           prefixi={e\bibinitperiod},
+           prefixun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer Netherlands}%
+      }
+      \strng{namehash}{4bc4a2c4eae1527c580ed142cb972266}
+      \strng{fullhash}{dd794812675fcb1f17b93bab546fc29b}
+      \strng{bibnamehash}{4bc4a2c4eae1527c580ed142cb972266}
+      \strng{authorbibnamehash}{4bc4a2c4eae1527c580ed142cb972266}
+      \strng{authornamehash}{4bc4a2c4eae1527c580ed142cb972266}
+      \strng{authorfullhash}{dd794812675fcb1f17b93bab546fc29b}
+      \field{sortinit}{T}
+      \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Space Science Reviews}
+      \field{month}{1}
+      \field{title}{InSight Mars Lander Robotics Instrument Deployment System}
+      \field{year}{1970}
+      \verb{urlraw}
+      \verb https://link.springer.com/article/10.1007/s11214-018-0520-7
+      \endverb
+      \verb{url}
+      \verb https://link.springer.com/article/10.1007/s11214-018-0520-7
+      \endverb
+    \endentry
+    \entry{wielenoutlet}{misc}{}
+      \field{sortinit}{W}
+      \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
+      \field{labeldatesource}{nodate}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{WielenOutlet}
+      \field{title}{Wieltjes voor al uw meubels koopt u snel Online bij WielenOutlet}
+      \verb{urlraw}
+      \verb https://www.wielenoutlet.nl/meubelwieltjes-m3-50.html?source=googlebase&gclid=CjwKCAjwvOHzBRBoEiwA48i6AgOWpU3VIqdU1KTBZ2aO3otvyGqP8LlrWgKArblv-tbejIt7cTgXBRoCZLQQAvD_BwE
+      \endverb
+      \verb{url}
+      \verb https://www.wielenoutlet.nl/meubelwieltjes-m3-50.html?source=googlebase&gclid=CjwKCAjwvOHzBRBoEiwA48i6AgOWpU3VIqdU1KTBZ2aO3otvyGqP8LlrWgKArblv-tbejIt7cTgXBRoCZLQQAvD_BwE
+      \endverb
+    \endentry
+  \enddatalist
+  \missing{aluminium op maat}
+  \missing{toolbox_voor_ontwerpers_ipo_windesheim}
+\endrefsection
+\endinput
+
