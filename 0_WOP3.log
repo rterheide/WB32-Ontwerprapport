@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7350 64-bit) (preloaded format=pdflatex 2020.4.1)  1 APR 2020 15:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7380 64-bit) (preloaded format=pdflatex 2020.4.1)  1 APR 2020 19:18
 entering extended mode
 **c:/Users/robin/Documents/GitHub/WB32-Ontwerprapport/0_WOP3.tex
 (c:/Users/robin/Documents/GitHub/WB32-Ontwerprapport/0_WOP3.tex
@@ -86,9 +86,9 @@ LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 )) ("C:\Users\robin\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\babel.sty"
-Package: babel 2020/02/28 3.41 The Babel package
+Package: babel 2020/03/22 3.42 The Babel package
  ("C:\Users\robin\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\switch.def"
-File: switch.def 2020/02/28 3.41 Babel switching mechanism
+File: switch.def 2020/03/22 3.42 Babel switching mechanism
 )
 *************************************
 * Local config file bblopts.cfg used
@@ -98,7 +98,7 @@ File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of 
 ) ("C:\Users\robin\AppData\Local\Programs\MiKTeX 2.9\tex/latex/babel-dutch\dutch.ldf"
 Language: dutch 2005/03/30 v3.8i Dutch support from the babel system
  ("C:\Users\robin\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\babel.def"
-File: babel.def 2020/02/28 3.41 Babel common definitions
+File: babel.def 2020/03/22 3.42 Babel common definitions
 \babel@savecnt=\count188
 \U@D=\dimen144
  ("C:\Users\robin\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\txtbabel.def")
@@ -1293,17 +1293,17 @@ Package biblatex Info: Setting label 'refsegment:01' on input line 1.
 ]
 Package biblatex Info: Reference segment=2 on input line 1.
 Package biblatex Info: Setting label 'refsegment:02' on input line 1.
-<04_idee_ontwikkeling/deeloplossing_mantis.JPG, id=341, 545.03625pt x 350.30875pt>
+<04_idee_ontwikkeling/deeloplossing_mantis.JPG, id=341, 1090.0725pt x 700.6175pt>
 File: 04_idee_ontwikkeling/deeloplossing_mantis.JPG Graphic file (type jpg)
 <use 04_idee_ontwikkeling/deeloplossing_mantis.JPG>
 Package pdftex.def Info: 04_idee_ontwikkeling/deeloplossing_mantis.JPG  used on input line 14.
-(pdftex.def)             Requested size: 227.62204pt x 146.2948pt.
+(pdftex.def)             Requested size: 227.62204pt x 146.28946pt.
  [5 <c:/Users/robin/Documents/GitHub/WB32-Ontwerprapport/04_idee_ontwikkeling/deeloplossing_mantis.JPG>]
-<04_idee_ontwikkeling/isom_uitschuiver.png, id=349, 1794.705pt x 1573.88pt>
+<04_idee_ontwikkeling/isom_uitschuiver.png, id=349, 897.3525pt x 786.94pt>
 File: 04_idee_ontwikkeling/isom_uitschuiver.png Graphic file (type png)
 <use 04_idee_ontwikkeling/isom_uitschuiver.png>
 Package pdftex.def Info: 04_idee_ontwikkeling/isom_uitschuiver.png  used on input line 23.
-(pdftex.def)             Requested size: 227.62204pt x 199.59235pt.
+(pdftex.def)             Requested size: 227.62204pt x 199.60435pt.
 <Foto_inklapper.PNG, id=352, 445.665pt x 351.714pt>
 File: Foto_inklapper.PNG Graphic file (type png)
 <use Foto_inklapper.PNG>
@@ -1319,11 +1319,11 @@ File: 04_idee_ontwikkeling/detail_uitschuiver.png Graphic file (type png)
 <use 04_idee_ontwikkeling/detail_uitschuiver.png>
 Package pdftex.def Info: 04_idee_ontwikkeling/detail_uitschuiver.png  used on input line 39.
 (pdftex.def)             Requested size: 227.62204pt x 136.0345pt.
-<04_idee_ontwikkeling/Foto_vierpoter.PNG, id=362, 478.78876pt x 409.53pt>
+<04_idee_ontwikkeling/Foto_vierpoter.PNG, id=362, 598.235pt x 511.9125pt>
 File: 04_idee_ontwikkeling/Foto_vierpoter.PNG Graphic file (type png)
 <use 04_idee_ontwikkeling/Foto_vierpoter.PNG>
 Package pdftex.def Info: 04_idee_ontwikkeling/Foto_vierpoter.PNG  used on input line 48.
-(pdftex.def)             Requested size: 227.62204pt x 194.69748pt.
+(pdftex.def)             Requested size: 227.62204pt x 194.77873pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -1412,11 +1412,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 42--44
 
  []
 
-<04_idee_ontwikkeling/Inklapper,_deelontwerp_Beer.PNG, id=655, 838.332pt x 472.76625pt>
+<04_idee_ontwikkeling/Inklapper,_deelontwerp_Beer.PNG, id=655, 1104.125pt x 622.325pt>
 File: 04_idee_ontwikkeling/Inklapper,_deelontwerp_Beer.PNG Graphic file (type png)
 <use 04_idee_ontwikkeling/Inklapper,_deelontwerp_Beer.PNG>
 Package pdftex.def Info: 04_idee_ontwikkeling/Inklapper,_deelontwerp_Beer.PNG  used on input line 47.
-(pdftex.def)             Requested size: 284.52756pt x 160.45705pt.
+(pdftex.def)             Requested size: 284.52756pt x 160.36679pt.
 <04_idee_ontwikkeling/Deelontwerp-Kevin.jpeg, id=657, 662.475pt x 401.24907pt>
 File: 04_idee_ontwikkeling/Deelontwerp-Kevin.jpeg Graphic file (type jpg)
 <use 04_idee_ontwikkeling/Deelontwerp-Kevin.jpeg>
@@ -1427,16 +1427,16 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Package cleveref Info: loaded `dutch' language definitions on input line 61.
  [9 <c:/Users/robin/Documents/GitHub/WB32-Ontwerprapport/04_idee_ontwikkeling/Inklapper,_deelontwerp_Beer.PNG>]
-<04_idee_ontwikkeling/Deel_ontwerp_robin.png, id=666, 2174.1225pt x 1556.81625pt>
+<04_idee_ontwikkeling/Deel_ontwerp_robin.png, id=666, 717.68124pt x 513.92pt>
 File: 04_idee_ontwikkeling/Deel_ontwerp_robin.png Graphic file (type png)
 <use 04_idee_ontwikkeling/Deel_ontwerp_robin.png>
 Package pdftex.def Info: 04_idee_ontwikkeling/Deel_ontwerp_robin.png  used on input line 68.
-(pdftex.def)             Requested size: 170.71652pt x 122.24359pt.
-<04_idee_ontwikkeling/Deeloplossing_schaarlift,_Hilbert_(1).PNG, id=668, 625.73775pt x 398.6895pt>
+(pdftex.def)             Requested size: 170.71652pt x 122.24547pt.
+<04_idee_ontwikkeling/Deeloplossing_schaarlift,_Hilbert_(1).PNG, id=668, 498.86375pt x 498.86375pt>
 File: 04_idee_ontwikkeling/Deeloplossing_schaarlift,_Hilbert_(1).PNG Graphic file (type png)
 <use 04_idee_ontwikkeling/Deeloplossing_schaarlift,_Hilbert_(1).PNG>
 Package pdftex.def Info: 04_idee_ontwikkeling/Deeloplossing_schaarlift,_Hilbert_(1).PNG  used on input line 81.
-(pdftex.def)             Requested size: 284.52756pt x 181.2884pt.
+(pdftex.def)             Requested size: 284.52756pt x 284.53798pt.
 Package cleveref Info: loaded `dutch' language definitions on input line 89.
  [10 <c:/Users/robin/Documents/GitHub/WB32-Ontwerprapport/04_idee_ontwikkeling/Deelontwerp-Kevin.jpeg> <c:/Users/robin/Documents/GitHub/WB32-Ontwerprapport/04_idee_ontwikkeling/Deel_ontwerp_robin.png>]
 <04_idee_ontwikkeling/deelconcept_mantistank.JPG, id=678, 566.61688pt x 348.80313pt>
@@ -1445,238 +1445,250 @@ File: 04_idee_ontwikkeling/deelconcept_mantistank.JPG Graphic file (type jpg)
 Package pdftex.def Info: 04_idee_ontwikkeling/deelconcept_mantistank.JPG  used on input line 92.
 (pdftex.def)             Requested size: 284.52756pt x 175.15689pt.
 
-Underfull \vbox (badness 2591) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-Package cleveref Info: loaded `dutch' language definitions on input line 101.
- [11 <c:/Users/robin/Documents/GitHub/WB32-Ontwerprapport/04_idee_ontwikkeling/Deeloplossing_schaarlift,_Hilbert_(1).PNG> <c:/Users/robin/Documents/GitHub/WB32-Ontwerprapport/04_idee_ontwikkeling/deelconcept_mantistank.JPG>]
+Package cleveref Info: loaded `dutch' language definitions on input line 96.
+ [11 <c:/Users/robin/Documents/GitHub/WB32-Ontwerprapport/04_idee_ontwikkeling/Deeloplossing_schaarlift,_Hilbert_(1).PNG>]
 Underfull \hbox (badness 10000) in paragraph at lines 104--105
 
  []
 
-<04_idee_ontwikkeling/IMG_0892.jpg, id=685, 1000.73875pt x 1334.9875pt>
+<04_idee_ontwikkeling/IMG_0892.jpg, id=685, 751.80875pt x 1174.3875pt>
 File: 04_idee_ontwikkeling/IMG_0892.jpg Graphic file (type jpg)
 <use 04_idee_ontwikkeling/IMG_0892.jpg>
 Package pdftex.def Info: 04_idee_ontwikkeling/IMG_0892.jpg  used on input line 113.
-(pdftex.def)             Requested size: 142.26378pt x 189.76918pt.
+(pdftex.def)             Requested size: 142.26378pt x 222.22203pt.
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+Package cleveref Info: loaded `dutch' language definitions on input line 117.
+ [12 <c:/Users/robin/Documents/GitHub/WB32-Ontwerprapport/04_idee_ontwikkeling/deelconcept_mantistank.JPG>]
 Underfull \hbox (badness 10000) in paragraph at lines 120--122
 
  []
 
-<04_idee_ontwikkeling/Inklapwielen.jpg, id=687, 758.835pt x 1011.78pt>
+<04_idee_ontwikkeling/Inklapwielen.jpg, id=692, 495.8525pt x 438.63875pt>
 File: 04_idee_ontwikkeling/Inklapwielen.jpg Graphic file (type jpg)
 <use 04_idee_ontwikkeling/Inklapwielen.jpg>
 Package pdftex.def Info: 04_idee_ontwikkeling/Inklapwielen.jpg  used on input line 126.
-(pdftex.def)             Requested size: 142.26378pt x 189.6774pt.
-Package cleveref Info: loaded `dutch' language definitions on input line 130.
-[12 <c:/Users/robin/Documents/GitHub/WB32-Ontwerprapport/04_idee_ontwikkeling/IMG_0892.jpg>]
+(pdftex.def)             Requested size: 142.26378pt x 125.84998pt.
+
 Underfull \hbox (badness 10000) in paragraph at lines 131--133
 
  []
 
-<04_idee_ontwikkeling/Mantis_spuugmodel.jpg, id=695, 2269.47874pt x 1801.73125pt>
+<04_idee_ontwikkeling/Mantis_spuugmodel.jpg, id=694, 1136.245pt x 901.3675pt>
 File: 04_idee_ontwikkeling/Mantis_spuugmodel.jpg Graphic file (type jpg)
 <use 04_idee_ontwikkeling/Mantis_spuugmodel.jpg>
 Package pdftex.def Info: 04_idee_ontwikkeling/Mantis_spuugmodel.jpg  used on input line 136.
-(pdftex.def)             Requested size: 142.26378pt x 112.93782pt.
-
+(pdftex.def)             Requested size: 142.26378pt x 112.84946pt.
+Package cleveref Info: loaded `dutch' language definitions on input line 139.
+[13 <c:/Users/robin/Documents/GitHub/WB32-Ontwerprapport/04_idee_ontwikkeling/IMG_0892.jpg> <c:/Users/robin/Documents/GitHub/WB32-Ontwerprapport/04_idee_ontwikkeling/Inklapwielen.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 141--143
 
  []
 
-<04_idee_ontwikkeling/fietsstuur.jpg, id=697, 1011.78pt x 758.835pt>
+<04_idee_ontwikkeling/fietsstuur.jpg, id=702, 897.3525pt x 616.3025pt>
 File: 04_idee_ontwikkeling/fietsstuur.jpg Graphic file (type jpg)
 <use 04_idee_ontwikkeling/fietsstuur.jpg>
 Package pdftex.def Info: 04_idee_ontwikkeling/fietsstuur.jpg  used on input line 146.
-(pdftex.def)             Requested size: 142.26378pt x 106.68774pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-Package cleveref Info: loaded `dutch' language definitions on input line 150.
- [13 <c:/Users/robin/Documents/GitHub/WB32-Ontwerprapport/04_idee_ontwikkeling/Inklapwielen.jpg> <c:/Users/robin/Documents/GitHub/WB32-Ontwerprapport/04_idee_ontwikkeling/Mantis_spuugmodel.jpg>]
-<04_idee_ontwikkeling/RC_arduinos.jpg, id=706, 3527.1775pt x 1539.7525pt>
+(pdftex.def)             Requested size: 142.26378pt x 97.69823pt.
+<04_idee_ontwikkeling/RC_arduinos.jpg, id=704, 1165.35374pt x 508.90125pt>
 File: 04_idee_ontwikkeling/RC_arduinos.jpg Graphic file (type jpg)
 <use 04_idee_ontwikkeling/RC_arduinos.jpg>
 Package pdftex.def Info: 04_idee_ontwikkeling/RC_arduinos.jpg  used on input line 159.
-(pdftex.def)             Requested size: 227.62204pt x 99.35909pt.
+(pdftex.def)             Requested size: 227.62204pt x 99.39453pt.
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+Package cleveref Info: loaded `dutch' language definitions on input line 163.
+ [14 <c:/Users/robin/Documents/GitHub/WB32-Ontwerprapport/04_idee_ontwikkeling/Mantis_spuugmodel.jpg> <c:/Users/robin/Documents/GitHub/WB32-Ontwerprapport/04_idee_ontwikkeling/fietsstuur.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 174--178
 
  []
 
-Package cleveref Info: loaded `dutch' language definitions on input line 179.
-[14 <c:/Users/robin/Documents/GitHub/WB32-Ontwerprapport/04_idee_ontwikkeling/fietsstuur.jpg> <c:/Users/robin/Documents/GitHub/WB32-Ontwerprapport/04_idee_ontwikkeling/RC_arduinos.jpg>]
+
 Underfull \hbox (badness 10000) in paragraph at lines 179--184
 
  []
 
-
+Package cleveref Info: loaded `dutch' language definitions on input line 184.
+[15 <c:/Users/robin/Documents/GitHub/WB32-Ontwerprapport/04_idee_ontwikkeling/RC_arduinos.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 188--191
 
  []
 
-Package cleveref Info: loaded `dutch' language definitions on input line 195.
-[15]
 
 LaTeX Font Warning: Font shape `T1/futs/m/scit' undefined
-(Font)              using `T1/futs/m/it' instead on input line 205.
+(Font)              using `T1/futs/m/it' instead on input line 206.
 
 File: 04_idee_ontwikkeling/deeloplossing_mantis.JPG Graphic file (type jpg)
 <use 04_idee_ontwikkeling/deeloplossing_mantis.JPG>
-Package pdftex.def Info: 04_idee_ontwikkeling/deeloplossing_mantis.JPG  used on input line 210.
+Package pdftex.def Info: 04_idee_ontwikkeling/deeloplossing_mantis.JPG  used on input line 211.
 (pdftex.def)             Requested size: 284.52756pt x 182.87251pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 215--216
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+Package cleveref Info: loaded `dutch' language definitions on input line 215.
+ [16]
+Underfull \hbox (badness 10000) in paragraph at lines 216--217
 
  []
 
-<04_idee_ontwikkeling/Mantiscar_armen.jpeg, id=721, 647.41875pt x 308.65312pt>
+<04_idee_ontwikkeling/Mantiscar_armen.jpeg, id=725, 647.41875pt x 308.65312pt>
 File: 04_idee_ontwikkeling/Mantiscar_armen.jpeg Graphic file (type jpg)
 <use 04_idee_ontwikkeling/Mantiscar_armen.jpeg>
-Package pdftex.def Info: 04_idee_ontwikkeling/Mantiscar_armen.jpeg  used on input line 219.
+Package pdftex.def Info: 04_idee_ontwikkeling/Mantiscar_armen.jpeg  used on input line 220.
 (pdftex.def)             Requested size: 284.52756pt x 135.64766pt.
-Package cleveref Info: loaded `dutch' language definitions on input line 223.
-[16]
-<04_idee_ontwikkeling/Bovenaanzicht_schaarlift.jpeg, id=730, 822.07124pt x 493.845pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+Package cleveref Info: loaded `dutch' language definitions on input line 224.
+ [17]
+<04_idee_ontwikkeling/Bovenaanzicht_schaarlift.jpeg, id=734, 822.07124pt x 493.845pt>
 File: 04_idee_ontwikkeling/Bovenaanzicht_schaarlift.jpeg Graphic file (type jpg)
 <use 04_idee_ontwikkeling/Bovenaanzicht_schaarlift.jpeg>
-Package pdftex.def Info: 04_idee_ontwikkeling/Bovenaanzicht_schaarlift.jpeg  used on input line 230.
+Package pdftex.def Info: 04_idee_ontwikkeling/Bovenaanzicht_schaarlift.jpeg  used on input line 231.
 (pdftex.def)             Requested size: 227.62204pt x 136.73842pt.
 
 
 LaTeX Font Warning: Font shape `T1/futs/m/scit' undefined
-(Font)              using `T1/futs/m/it' instead on input line 237.
+(Font)              using `T1/futs/m/it' instead on input line 238.
 
 
-Overfull \hbox (5.85681pt too wide) in paragraph at lines 240--242
+Overfull \hbox (5.85681pt too wide) in paragraph at lines 241--243
 \T1/futs/m/n/10 De uit-schui-ver werkt door een stap-pende be-we-ging te ma-ken met be-hulp van twee schaar-
  []
 
-Package cleveref Info: loaded `dutch' language definitions on input line 242.
-[17 <c:/Users/robin/Documents/GitHub/WB32-Ontwerprapport/04_idee_ontwikkeling/Mantiscar_armen.jpeg> <c:/Users/robin/Documents/GitHub/WB32-Ontwerprapport/04_idee_ontwikkeling/Bovenaanzicht_schaarlift.jpeg>]
-Overfull \hbox (7.68015pt too wide) in paragraph at lines 243--244
+Package cleveref Info: loaded `dutch' language definitions on input line 243.
+[18 <c:/Users/robin/Documents/GitHub/WB32-Ontwerprapport/04_idee_ontwikkeling/Mantiscar_armen.jpeg> <c:/Users/robin/Documents/GitHub/WB32-Ontwerprapport/04_idee_ontwikkeling/Bovenaanzicht_schaarlift.jpeg>]
+Overfull \hbox (7.68015pt too wide) in paragraph at lines 244--245
 []\T1/futs/m/n/10 De uit-schui-ver wordt aan-ge-dre-ven door zes step-per mo-to-ren. On-der de voor-ste schaar-
  []
 
 File: 04_idee_ontwikkeling/isom_uitschuiver.png Graphic file (type png)
 <use 04_idee_ontwikkeling/isom_uitschuiver.png>
-Package pdftex.def Info: 04_idee_ontwikkeling/isom_uitschuiver.png  used on input line 250.
-(pdftex.def)             Requested size: 227.62204pt x 199.59235pt.
+Package pdftex.def Info: 04_idee_ontwikkeling/isom_uitschuiver.png  used on input line 251.
+(pdftex.def)             Requested size: 227.62204pt x 199.60435pt.
 File: 04_idee_ontwikkeling/detail_uitschuiver.png Graphic file (type png)
 <use 04_idee_ontwikkeling/detail_uitschuiver.png>
-Package pdftex.def Info: 04_idee_ontwikkeling/detail_uitschuiver.png  used on input line 257.
+Package pdftex.def Info: 04_idee_ontwikkeling/detail_uitschuiver.png  used on input line 258.
 (pdftex.def)             Requested size: 227.62204pt x 136.0345pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-Package cleveref Info: loaded `dutch' language definitions on input line 261.
- [18]
+Package cleveref Info: loaded `dutch' language definitions on input line 262.
+ [19]
 
 LaTeX Font Warning: Font shape `T1/futs/m/scit' undefined
-(Font)              using `T1/futs/m/it' instead on input line 263.
+(Font)              using `T1/futs/m/it' instead on input line 264.
 
-<04_idee_ontwikkeling/Recht_onder_hoek_driepoten.png, id=747, 1567.8575pt x 421.575pt>
+<04_idee_ontwikkeling/Recht_onder_hoek_driepoten.png, id=752, 783.92876pt x 210.7875pt>
 File: 04_idee_ontwikkeling/Recht_onder_hoek_driepoten.png Graphic file (type png)
 <use 04_idee_ontwikkeling/Recht_onder_hoek_driepoten.png>
-Package pdftex.def Info: 04_idee_ontwikkeling/Recht_onder_hoek_driepoten.png  used on input line 270.
-(pdftex.def)             Requested size: 341.43306pt x 91.80116pt.
+Package pdftex.def Info: 04_idee_ontwikkeling/Recht_onder_hoek_driepoten.png  used on input line 271.
+(pdftex.def)             Requested size: 341.43306pt x 91.8076pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 275--276
+Underfull \hbox (badness 10000) in paragraph at lines 276--277
 
  []
 
-<04_idee_ontwikkeling/Verloop_systeem_driepoten.png, id=749, 1368.11125pt x 1124.2pt>
+<04_idee_ontwikkeling/Verloop_systeem_driepoten.png, id=754, 684.5575pt x 562.1pt>
 File: 04_idee_ontwikkeling/Verloop_systeem_driepoten.png Graphic file (type png)
 <use 04_idee_ontwikkeling/Verloop_systeem_driepoten.png>
-Package pdftex.def Info: 04_idee_ontwikkeling/Verloop_systeem_driepoten.png  used on input line 279.
-(pdftex.def)             Requested size: 341.43306pt x 280.55185pt.
+Package pdftex.def Info: 04_idee_ontwikkeling/Verloop_systeem_driepoten.png  used on input line 280.
+(pdftex.def)             Requested size: 341.43306pt x 280.36316pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-Package cleveref Info: loaded `dutch' language definitions on input line 283.
- [19 <c:/Users/robin/Documents/GitHub/WB32-Ontwerprapport/04_idee_ontwikkeling/Recht_onder_hoek_driepoten.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 284--285
+Package cleveref Info: loaded `dutch' language definitions on input line 284.
+ [20 <c:/Users/robin/Documents/GitHub/WB32-Ontwerprapport/04_idee_ontwikkeling/Recht_onder_hoek_driepoten.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 285--286
 
  []
 
-<04_conceptKeuze/Foto_stuursysteem.PNG, id=762, 731.73375pt x 293.29575pt>
+<04_conceptKeuze/Foto_stuursysteem.PNG, id=766, 731.73375pt x 293.29575pt>
 File: 04_conceptKeuze/Foto_stuursysteem.PNG Graphic file (type png)
 <use 04_conceptKeuze/Foto_stuursysteem.PNG>
-Package pdftex.def Info: 04_conceptKeuze/Foto_stuursysteem.PNG  used on input line 287.
+Package pdftex.def Info: 04_conceptKeuze/Foto_stuursysteem.PNG  used on input line 288.
 (pdftex.def)             Requested size: 284.52756pt x 114.04474pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-Package cleveref Info: loaded `dutch' language definitions on input line 291.
- [20 <c:/Users/robin/Documents/GitHub/WB32-Ontwerprapport/04_idee_ontwikkeling/Verloop_systeem_driepoten.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 292--293
+Package cleveref Info: loaded `dutch' language definitions on input line 292.
+ [21 <c:/Users/robin/Documents/GitHub/WB32-Ontwerprapport/04_idee_ontwikkeling/Verloop_systeem_driepoten.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 293--294
 
  []
 
 File: Foto_inklapper.PNG Graphic file (type png)
 <use Foto_inklapper.PNG>
-Package pdftex.def Info: Foto_inklapper.PNG  used on input line 295.
+Package pdftex.def Info: Foto_inklapper.PNG  used on input line 296.
 (pdftex.def)             Requested size: 284.52756pt x 224.54878pt.
 
 LaTeX Font Warning: Font shape `T1/futs/m/scit' undefined
-(Font)              using `T1/futs/m/it' instead on input line 300.
+(Font)              using `T1/futs/m/it' instead on input line 301.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 303--306
+Underfull \hbox (badness 10000) in paragraph at lines 304--307
 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-Package cleveref Info: loaded `dutch' language definitions on input line 306.
- [21 <c:/Users/robin/Documents/GitHub/WB32-Ontwerprapport/04_conceptKeuze/Foto_stuursysteem.PNG>]
-<04_idee_ontwikkeling/Foto_aandrijving_vierpoter.PNG, id=777, 560.0925pt x 339.06676pt>
+Package cleveref Info: loaded `dutch' language definitions on input line 307.
+ [22 <c:/Users/robin/Documents/GitHub/WB32-Ontwerprapport/04_conceptKeuze/Foto_stuursysteem.PNG>]
+<04_idee_ontwikkeling/Foto_aandrijving_vierpoter.PNG, id=781, 700.6175pt x 423.5825pt>
 File: 04_idee_ontwikkeling/Foto_aandrijving_vierpoter.PNG Graphic file (type png)
 <use 04_idee_ontwikkeling/Foto_aandrijving_vierpoter.PNG>
-Package pdftex.def Info: 04_idee_ontwikkeling/Foto_aandrijving_vierpoter.PNG  used on input line 308.
-(pdftex.def)             Requested size: 284.52756pt x 172.25433pt.
+Package pdftex.def Info: 04_idee_ontwikkeling/Foto_aandrijving_vierpoter.PNG  used on input line 309.
+(pdftex.def)             Requested size: 284.52756pt x 172.02179pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 314--315
+Underfull \hbox (badness 10000) in paragraph at lines 315--316
 
  []
 
-<04_idee_ontwikkeling/Foto_loopsysteem.PNG, id=779, 667.293pt x 467.94826pt>
+<04_idee_ontwikkeling/Foto_loopsysteem.PNG, id=783, 834.11626pt x 585.18625pt>
 File: 04_idee_ontwikkeling/Foto_loopsysteem.PNG Graphic file (type png)
 <use 04_idee_ontwikkeling/Foto_loopsysteem.PNG>
-Package pdftex.def Info: 04_idee_ontwikkeling/Foto_loopsysteem.PNG  used on input line 317.
-(pdftex.def)             Requested size: 284.52756pt x 199.52872pt.
+Package pdftex.def Info: 04_idee_ontwikkeling/Foto_loopsysteem.PNG  used on input line 318.
+(pdftex.def)             Requested size: 284.52756pt x 199.61252pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 322--323
+Underfull \hbox (badness 10000) in paragraph at lines 323--324
 
  []
 
-<04_idee_ontwikkeling/Opklapsysteem_met_tandwiel.png, id=781, 1618.045pt x 1203.49625pt>
+<04_idee_ontwikkeling/Opklapsysteem_met_tandwiel.png, id=785, 1179.40625pt x 760.8425pt>
 File: 04_idee_ontwikkeling/Opklapsysteem_met_tandwiel.png Graphic file (type png)
 <use 04_idee_ontwikkeling/Opklapsysteem_met_tandwiel.png>
-Package pdftex.def Info: 04_idee_ontwikkeling/Opklapsysteem_met_tandwiel.png  used on input line 326.
-(pdftex.def)             Requested size: 227.62204pt x 169.29633pt.
+Package pdftex.def Info: 04_idee_ontwikkeling/Opklapsysteem_met_tandwiel.png  used on input line 327.
+(pdftex.def)             Requested size: 227.62204pt x 146.83704pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-Package cleveref Info: loaded `dutch' language definitions on input line 330.
- [22 <c:/Users/robin/Documents/GitHub/WB32-Ontwerprapport/04_idee_ontwikkeling/Foto_aandrijving_vierpoter.PNG>]
-Underfull \hbox (badness 10000) in paragraph at lines 331--333
+Package cleveref Info: loaded `dutch' language definitions on input line 331.
+ [23 <c:/Users/robin/Documents/GitHub/WB32-Ontwerprapport/04_idee_ontwikkeling/Foto_aandrijving_vierpoter.PNG>]
+Underfull \hbox (badness 10000) in paragraph at lines 332--334
 
  []
 
 File: 04_idee_ontwikkeling/Foto_vierpoter.PNG Graphic file (type png)
 <use 04_idee_ontwikkeling/Foto_vierpoter.PNG>
-Package pdftex.def Info: 04_idee_ontwikkeling/Foto_vierpoter.PNG  used on input line 337.
-(pdftex.def)             Requested size: 284.52756pt x 243.3703pt.
+Package pdftex.def Info: 04_idee_ontwikkeling/Foto_vierpoter.PNG  used on input line 338.
+(pdftex.def)             Requested size: 284.52756pt x 243.4734pt.
 )
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 Package cleveref Info: loaded `dutch' language definitions on input line 39.
- [23 <c:/Users/robin/Documents/GitHub/WB32-Ontwerprapport/04_idee_ontwikkeling/Foto_loopsysteem.PNG> <c:/Users/robin/Documents/GitHub/WB32-Ontwerprapport/04_idee_ontwikkeling/Opklapsysteem_met_tandwiel.png>] (c:\Users\robin\Documents\GitHub\WB32-Ontwerprapport\04_conceptKeuze/conceptKeuze.tex
+ [24 <c:/Users/robin/Documents/GitHub/WB32-Ontwerprapport/04_idee_ontwikkeling/Foto_loopsysteem.PNG> <c:/Users/robin/Documents/GitHub/WB32-Ontwerprapport/04_idee_ontwikkeling/Opklapsysteem_met_tandwiel.png>] (c:\Users\robin\Documents\GitHub\WB32-Ontwerprapport\04_conceptKeuze/conceptKeuze.tex
 Package cleveref Info: loaded `dutch' language definitions on input line 1.
- [24]
+ [25] [26
+
+]
 Hoofdstuk 4.
 Package biblatex Info: Reference segment=7 on input line 1.
 Package biblatex Info: Setting label 'refsegment:07' on input line 1.
@@ -1690,9 +1702,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--17
 
  []
 
-[25
-
-]
+[27]
 Underfull \hbox (badness 10000) in paragraph at lines 22--23
 
  []
@@ -1703,7 +1713,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 31--32
  []
 
 Package cleveref Info: loaded `dutch' language definitions on input line 63.
-[26]
+[28]
 Underfull \hbox (badness 10000) in paragraph at lines 66--67
 
  []
@@ -1725,9 +1735,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 94--41
 
 (c:\Users\robin\Documents\GitHub\WB32-Ontwerprapport\04_gekozenconcept/gekozenconcept.tex
 Package cleveref Info: loaded `dutch' language definitions on input line 1.
- [27]
+ [29]
 Package cleveref Info: loaded `dutch' language definitions on input line 1.
- [28]
+ [30]
 Hoofdstuk 5.
 Package biblatex Info: Reference segment=8 on input line 1.
 Package biblatex Info: Setting label 'refsegment:08' on input line 1.
@@ -1739,10 +1749,10 @@ Overfull \hbox (11.31679pt too wide) in paragraph at lines 12--13
 
 Underfull \vbox (badness 2310) has occurred while \output is active []
 
- [29
+ [31
 
 ]
-<04_gekozenconcept/Tabel_faal.PNG, id=850, 707.64375pt x 372.79276pt>
+<04_gekozenconcept/Tabel_faal.PNG, id=860, 707.64375pt x 372.79276pt>
 File: 04_gekozenconcept/Tabel_faal.PNG Graphic file (type png)
 <use 04_gekozenconcept/Tabel_faal.PNG>
 Package pdftex.def Info: 04_gekozenconcept/Tabel_faal.PNG  used on input line 39.
@@ -1753,7 +1763,7 @@ Overfull \hbox (64.0187pt too wide) in paragraph at lines 39--40
  []
 
 Package cleveref Info: loaded `dutch' language definitions on input line 42.
-[30]
+[32]
 File: 04_gekozenconcept/eindconcept.png Graphic file (type png)
 <use 04_gekozenconcept/eindconcept.png>
 Package pdftex.def Info: 04_gekozenconcept/eindconcept.png  used on input line 54.
@@ -1762,9 +1772,9 @@ Package pdftex.def Info: 04_gekozenconcept/eindconcept.png  used on input line 5
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Package cleveref Info: loaded `dutch' language definitions on input line 58.
- [31 <c:/Users/robin/Documents/GitHub/WB32-Ontwerprapport/04_gekozenconcept/Tabel_faal.PNG>]) (c:\Users\robin\Documents\GitHub\WB32-Ontwerprapport\04_conceptdimensionering/Conceptdimensionering.tex
+ [33 <c:/Users/robin/Documents/GitHub/WB32-Ontwerprapport/04_gekozenconcept/Tabel_faal.PNG>]) (c:\Users\robin\Documents\GitHub\WB32-Ontwerprapport\04_conceptdimensionering/Conceptdimensionering.tex
 Package cleveref Info: loaded `dutch' language definitions on input line 1.
- [32]
+ [34]
 Hoofdstuk 6.
 Package biblatex Info: Reference segment=9 on input line 1.
 Package biblatex Info: Setting label 'refsegment:09' on input line 1.
@@ -1778,7 +1788,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 20--21
 
  []
 
-[33
+[35
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 24--25
@@ -1805,18 +1815,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 45--47
 
  []
 
-<04_conceptdimensionering/ackermann.png, id=879, 269.005pt x 188.705pt>
+<04_conceptdimensionering/ackermann.png, id=888, 269.005pt x 188.705pt>
 File: 04_conceptdimensionering/ackermann.png Graphic file (type png)
 <use 04_conceptdimensionering/ackermann.png>
 Package pdftex.def Info: 04_conceptdimensionering/ackermann.png  used on input line 49.
 (pdftex.def)             Requested size: 284.52756pt x 199.59442pt.
 Package cleveref Info: loaded `dutch' language definitions on input line 52.
-[34]
+[36]
 Underfull \hbox (badness 10000) in paragraph at lines 58--60
 
  []
 
-<04_conceptdimensionering/As_FBD.jpg, id=887, 3642.60875pt x 2784.4025pt>
+<04_conceptdimensionering/As_FBD.jpg, id=896, 3642.60875pt x 2784.4025pt>
 File: 04_conceptdimensionering/As_FBD.jpg Graphic file (type jpg)
 <use 04_conceptdimensionering/As_FBD.jpg>
 Package pdftex.def Info: 04_conceptdimensionering/As_FBD.jpg  used on input line 73.
@@ -1825,17 +1835,17 @@ Package pdftex.def Info: 04_conceptdimensionering/As_FBD.jpg  used on input line
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Package cleveref Info: loaded `dutch' language definitions on input line 77.
- [35 <c:/Users/robin/Documents/GitHub/WB32-Ontwerprapport/04_conceptdimensionering/ackermann.png>]
+ [37 <c:/Users/robin/Documents/GitHub/WB32-Ontwerprapport/04_conceptdimensionering/ackermann.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 78--79
 
  []
 
-<04_conceptdimensionering/Constanten_as_goed.PNG, id=898, 449.88075pt x 248.127pt>
+<04_conceptdimensionering/Constanten_as_goed.PNG, id=908, 449.88075pt x 248.127pt>
 File: 04_conceptdimensionering/Constanten_as_goed.PNG Graphic file (type png)
 <use 04_conceptdimensionering/Constanten_as_goed.PNG>
 Package pdftex.def Info: 04_conceptdimensionering/Constanten_as_goed.PNG  used on input line 81.
 (pdftex.def)             Requested size: 284.52756pt x 156.92659pt.
-<04_conceptdimensionering/Krachtenlijn_as.png, id=899, 395.4775pt x 266.9975pt>
+<04_conceptdimensionering/Krachtenlijn_as.png, id=909, 395.4775pt x 266.9975pt>
 File: 04_conceptdimensionering/Krachtenlijn_as.png Graphic file (type png)
 <use 04_conceptdimensionering/Krachtenlijn_as.png>
 Package pdftex.def Info: 04_conceptdimensionering/Krachtenlijn_as.png  used on input line 87.
@@ -1844,8 +1854,8 @@ Package pdftex.def Info: 04_conceptdimensionering/Krachtenlijn_as.png  used on i
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Package cleveref Info: loaded `dutch' language definitions on input line 91.
- [36 <c:/Users/robin/Documents/GitHub/WB32-Ontwerprapport/04_conceptdimensionering/As_FBD.jpg> <c:/Users/robin/Documents/GitHub/WB32-Ontwerprapport/04_conceptdimensionering/Constanten_as_goed.PNG>]
-<04_conceptdimensionering/Momentenlijn_as.png, id=908, 405.515pt x 266.9975pt>
+ [38 <c:/Users/robin/Documents/GitHub/WB32-Ontwerprapport/04_conceptdimensionering/As_FBD.jpg> <c:/Users/robin/Documents/GitHub/WB32-Ontwerprapport/04_conceptdimensionering/Constanten_as_goed.PNG>]
+<04_conceptdimensionering/Momentenlijn_as.png, id=918, 405.515pt x 266.9975pt>
 File: 04_conceptdimensionering/Momentenlijn_as.png Graphic file (type png)
 <use 04_conceptdimensionering/Momentenlijn_as.png>
 Package pdftex.def Info: 04_conceptdimensionering/Momentenlijn_as.png  used on input line 93.
@@ -1856,7 +1866,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 104--105
  []
 
 Package cleveref Info: loaded `dutch' language definitions on input line 105.
-[37 <c:/Users/robin/Documents/GitHub/WB32-Ontwerprapport/04_conceptdimensionering/Krachtenlijn_as.png> <c:/Users/robin/Documents/GitHub/WB32-Ontwerprapport/04_conceptdimensionering/Momentenlijn_as.png>]
+[39 <c:/Users/robin/Documents/GitHub/WB32-Ontwerprapport/04_conceptdimensionering/Krachtenlijn_as.png> <c:/Users/robin/Documents/GitHub/WB32-Ontwerprapport/04_conceptdimensionering/Momentenlijn_as.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 105--106
 
  []
@@ -1866,12 +1876,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 106--107
 
  []
 
-<04_conceptdimensionering/member_FBD.jpg, id=925, 3359.55125pt x 1525.7pt>
+<04_conceptdimensionering/member_FBD.jpg, id=934, 3359.55125pt x 1525.7pt>
 File: 04_conceptdimensionering/member_FBD.jpg Graphic file (type jpg)
 <use 04_conceptdimensionering/member_FBD.jpg>
 Package pdftex.def Info: 04_conceptdimensionering/member_FBD.jpg  used on input line 112.
 (pdftex.def)             Requested size: 284.52756pt x 129.20554pt.
-<04_conceptdimensionering/Schaarlift_kernel_1.PNG, id=926, 474.573pt x 274.626pt>
+<04_conceptdimensionering/Schaarlift_kernel_1.PNG, id=935, 474.573pt x 274.626pt>
 File: 04_conceptdimensionering/Schaarlift_kernel_1.PNG Graphic file (type png)
 <use 04_conceptdimensionering/Schaarlift_kernel_1.PNG>
 Package pdftex.def Info: 04_conceptdimensionering/Schaarlift_kernel_1.PNG  used on input line 119.
@@ -1880,8 +1890,8 @@ Package pdftex.def Info: 04_conceptdimensionering/Schaarlift_kernel_1.PNG  used 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Package cleveref Info: loaded `dutch' language definitions on input line 123.
- [38 <c:/Users/robin/Documents/GitHub/WB32-Ontwerprapport/04_conceptdimensionering/member_FBD.jpg>]
-<04_conceptdimensionering/Schaar.PNG, id=939, 331.2375pt x 389.0535pt>
+ [40 <c:/Users/robin/Documents/GitHub/WB32-Ontwerprapport/04_conceptdimensionering/member_FBD.jpg>]
+<04_conceptdimensionering/Schaar.PNG, id=948, 331.2375pt x 389.0535pt>
 File: 04_conceptdimensionering/Schaar.PNG Graphic file (type png)
 <use 04_conceptdimensionering/Schaar.PNG>
 Package pdftex.def Info: 04_conceptdimensionering/Schaar.PNG  used on input line 125.
@@ -1897,17 +1907,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 133--134
  []
 
 Package cleveref Info: loaded `dutch' language definitions on input line 134.
-[39 <c:/Users/robin/Documents/GitHub/WB32-Ontwerprapport/04_conceptdimensionering/Schaarlift_kernel_1.PNG> <c:/Users/robin/Documents/GitHub/WB32-Ontwerprapport/04_conceptdimensionering/Schaar.PNG>]
+[41 <c:/Users/robin/Documents/GitHub/WB32-Ontwerprapport/04_conceptdimensionering/Schaarlift_kernel_1.PNG> <c:/Users/robin/Documents/GitHub/WB32-Ontwerprapport/04_conceptdimensionering/Schaar.PNG>]
 Underfull \hbox (badness 10000) in paragraph at lines 135--136
 
  []
 
-<04_conceptdimensionering/U-profiel_tekening.jpg, id=953, 3223.04124pt x 2622.79875pt>
+<04_conceptdimensionering/U-profiel_tekening.jpg, id=962, 3223.04124pt x 2622.79875pt>
 File: 04_conceptdimensionering/U-profiel_tekening.jpg Graphic file (type jpg)
 <use 04_conceptdimensionering/U-profiel_tekening.jpg>
 Package pdftex.def Info: 04_conceptdimensionering/U-profiel_tekening.jpg  used on input line 142.
 (pdftex.def)             Requested size: 227.62204pt x 185.2155pt.
-<06_bijlage_F/onderkant_u_profiel/momentenlijn_onderkant.png, id=954, 389.455pt x 266.9975pt>
+<06_bijlage_F/onderkant_u_profiel/momentenlijn_onderkant.png, id=963, 389.455pt x 266.9975pt>
 File: 06_bijlage_F/onderkant_u_profiel/momentenlijn_onderkant.png Graphic file (type png)
 <use 06_bijlage_F/onderkant_u_profiel/momentenlijn_onderkant.png>
 Package pdftex.def Info: 06_bijlage_F/onderkant_u_profiel/momentenlijn_onderkant.png  used on input line 149.
@@ -1916,44 +1926,44 @@ Package pdftex.def Info: 06_bijlage_F/onderkant_u_profiel/momentenlijn_onderkant
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Package cleveref Info: loaded `dutch' language definitions on input line 154.
- [40 <c:/Users/robin/Documents/GitHub/WB32-Ontwerprapport/04_conceptdimensionering/U-profiel_tekening.jpg>]
-<06_bijlage_F/onderkant_u_profiel/krachtenlijn_onderkant.png, id=964, 395.4775pt x 266.9975pt>
+ [42 <c:/Users/robin/Documents/GitHub/WB32-Ontwerprapport/04_conceptdimensionering/U-profiel_tekening.jpg>]
+<06_bijlage_F/onderkant_u_profiel/krachtenlijn_onderkant.png, id=973, 395.4775pt x 266.9975pt>
 File: 06_bijlage_F/onderkant_u_profiel/krachtenlijn_onderkant.png Graphic file (type png)
 <use 06_bijlage_F/onderkant_u_profiel/krachtenlijn_onderkant.png>
 Package pdftex.def Info: 06_bijlage_F/onderkant_u_profiel/krachtenlijn_onderkant.png  used on input line 156.
 (pdftex.def)             Requested size: 227.62204pt x 153.6731pt.
-<06_bijlage_F/onderkant_u_profiel/kernel_onderkant.PNG, id=965, 457.10776pt x 101.78024pt>
+<06_bijlage_F/onderkant_u_profiel/kernel_onderkant.PNG, id=974, 457.10776pt x 101.78024pt>
 File: 06_bijlage_F/onderkant_u_profiel/kernel_onderkant.PNG Graphic file (type png)
 <use 06_bijlage_F/onderkant_u_profiel/kernel_onderkant.PNG>
 Package pdftex.def Info: 06_bijlage_F/onderkant_u_profiel/kernel_onderkant.PNG  used on input line 163.
 (pdftex.def)             Requested size: 341.43306pt x 76.02591pt.
 Package cleveref Info: loaded `dutch' language definitions on input line 182.
- [41 <c:/Users/robin/Documents/GitHub/WB32-Ontwerprapport/06_bijlage_F/onderkant_u_profiel/momentenlijn_onderkant.png> <c:/Users/robin/Documents/GitHub/WB32-Ontwerprapport/06_bijlage_F/onderkant_u_profiel/krachtenlijn_onderkant.png> <c:/Users/robin/Documents/GitHub/WB32-Ontwerprapport/06_bijlage_F/onderkant_u_profiel/kernel_onderkant.PNG>]
-<04_conceptdimensionering/Tabel_Maaklijst.JPG, id=975, 744.98325pt x 155.98276pt>
+ [43 <c:/Users/robin/Documents/GitHub/WB32-Ontwerprapport/06_bijlage_F/onderkant_u_profiel/momentenlijn_onderkant.png> <c:/Users/robin/Documents/GitHub/WB32-Ontwerprapport/06_bijlage_F/onderkant_u_profiel/krachtenlijn_onderkant.png> <c:/Users/robin/Documents/GitHub/WB32-Ontwerprapport/06_bijlage_F/onderkant_u_profiel/kernel_onderkant.PNG>]
+<04_conceptdimensionering/Tabel_Maaklijst.JPG, id=985, 744.98325pt x 155.98276pt>
 File: 04_conceptdimensionering/Tabel_Maaklijst.JPG Graphic file (type jpg)
 <use 04_conceptdimensionering/Tabel_Maaklijst.JPG>
 Package pdftex.def Info: 04_conceptdimensionering/Tabel_Maaklijst.JPG  used on input line 184.
 (pdftex.def)             Requested size: 341.43306pt x 71.48874pt.
-<04_conceptdimensionering/Tabel_Kooplijst.JPG, id=976, 734.745pt x 380.622pt>
+<04_conceptdimensionering/Tabel_Kooplijst.JPG, id=986, 734.745pt x 380.622pt>
 File: 04_conceptdimensionering/Tabel_Kooplijst.JPG Graphic file (type jpg)
 <use 04_conceptdimensionering/Tabel_Kooplijst.JPG>
 Package pdftex.def Info: 04_conceptdimensionering/Tabel_Kooplijst.JPG  used on input line 193.
 (pdftex.def)             Requested size: 341.43306pt x 176.87704pt.
 ) (c:\Users\robin\Documents\GitHub\WB32-Ontwerprapport\04_vervaardigingsplan/vervaardigingsplan.tex
 Package cleveref Info: loaded `dutch' language definitions on input line 2.
- [42 <c:/Users/robin/Documents/GitHub/WB32-Ontwerprapport/04_conceptdimensionering/Tabel_Maaklijst.JPG> <c:/Users/robin/Documents/GitHub/WB32-Ontwerprapport/04_conceptdimensionering/Tabel_Kooplijst.JPG>]
+ [44 <c:/Users/robin/Documents/GitHub/WB32-Ontwerprapport/04_conceptdimensionering/Tabel_Maaklijst.JPG> <c:/Users/robin/Documents/GitHub/WB32-Ontwerprapport/04_conceptdimensionering/Tabel_Kooplijst.JPG>]
 Hoofdstuk 7.
 Package biblatex Info: Reference segment=10 on input line 2.
 Package biblatex Info: Setting label 'refsegment:010' on input line 2.
-[43
+[45
 
 ]
-<04_vervaardigingsplan/U-kapjes.JPG, id=992, 283.65974pt x 328.8285pt>
+<04_vervaardigingsplan/U-kapjes.JPG, id=1001, 283.65974pt x 328.8285pt>
 File: 04_vervaardigingsplan/U-kapjes.JPG Graphic file (type jpg)
 <use 04_vervaardigingsplan/U-kapjes.JPG>
 Package pdftex.def Info: 04_vervaardigingsplan/U-kapjes.JPG  used on input line 35.
 (pdftex.def)             Requested size: 227.62204pt x 263.86595pt.
-<04_vervaardigingsplan/Stuurblokjes.JPG, id=994, 417.9615pt x 442.65375pt>
+<04_vervaardigingsplan/Stuurblokjes.JPG, id=1003, 417.9615pt x 442.65375pt>
 File: 04_vervaardigingsplan/Stuurblokjes.JPG Graphic file (type jpg)
 <use 04_vervaardigingsplan/Stuurblokjes.JPG>
 Package pdftex.def Info: 04_vervaardigingsplan/Stuurblokjes.JPG  used on input line 46.
@@ -1962,7 +1972,7 @@ Package pdftex.def Info: 04_vervaardigingsplan/Stuurblokjes.JPG  used on input l
 Underfull \vbox (badness 1365) has occurred while \output is active []
 
 Package cleveref Info: loaded `dutch' language definitions on input line 50.
- [44 <c:/Users/robin/Documents/GitHub/WB32-Ontwerprapport/04_vervaardigingsplan/U-kapjes.JPG>]
+ [46 <c:/Users/robin/Documents/GitHub/WB32-Ontwerprapport/04_vervaardigingsplan/U-kapjes.JPG>]
 Overfull \hbox (8.52692pt too wide) in alignment at lines 77--77
 [][] 
  []
@@ -1971,9 +1981,9 @@ Overfull \hbox (8.52692pt too wide) in alignment at lines 77--77
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Package cleveref Info: loaded `dutch' language definitions on input line 47.
- [45 <c:/Users/robin/Documents/GitHub/WB32-Ontwerprapport/04_vervaardigingsplan/Stuurblokjes.JPG>] (c:\Users\robin\Documents\GitHub\WB32-Ontwerprapport\04_prestatieverwachting/prestatieverwachting.tex
+ [47 <c:/Users/robin/Documents/GitHub/WB32-Ontwerprapport/04_vervaardigingsplan/Stuurblokjes.JPG>] (c:\Users\robin\Documents\GitHub\WB32-Ontwerprapport\04_prestatieverwachting/prestatieverwachting.tex
 Package cleveref Info: loaded `dutch' language definitions on input line 2.
- [46]
+ [48]
 Hoofdstuk 8.
 Package biblatex Info: Reference segment=11 on input line 2.
 Package biblatex Info: Setting label 'refsegment:011' on input line 2.
@@ -1994,7 +2004,7 @@ Package pdftex.def Info: 04_gekozenconcept/eindconcept.png  used on input line 1
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [47
+ [49
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 24--26
@@ -2003,11 +2013,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 24--26
 
 ) (c:\Users\robin\Documents\GitHub\WB32-Ontwerprapport\05_conclusie/conclusie.tex
 Package cleveref Info: loaded `dutch' language definitions on input line 1.
- [48]
+ [50]
 Hoofdstuk 9.
 Package biblatex Info: Reference segment=12 on input line 1.
 Package biblatex Info: Setting label 'refsegment:012' on input line 1.
-<05_conclusie/eindconcept.jpg, id=1027, 792.561pt x 422.7795pt>
+<05_conclusie/eindconcept.jpg, id=1037, 792.561pt x 422.7795pt>
 File: 05_conclusie/eindconcept.jpg Graphic file (type jpg)
 <use 05_conclusie/eindconcept.jpg>
 Package pdftex.def Info: 05_conclusie/eindconcept.jpg  used on input line 14.
@@ -2015,11 +2025,11 @@ Package pdftex.def Info: 05_conclusie/eindconcept.jpg  used on input line 14.
 )
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [49
+ [51
 
 ]
 Package cleveref Info: loaded `dutch' language definitions on input line 56.
- [50 <c:/Users/robin/Documents/GitHub/WB32-Ontwerprapport/05_conclusie/eindconcept.jpg>]
+ [52 <c:/Users/robin/Documents/GitHub/WB32-Ontwerprapport/05_conclusie/eindconcept.jpg>]
 Hoofdstuk 10.
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 56.
 ("C:\Users\robin\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\t1lmtt.fd"
@@ -2064,7 +2074,7 @@ Overfull \hbox (27.08467pt too wide) in paragraph at lines 56--56
 [][][]\T1/futs/m/n/10 (2020b). \T1/futs/m/it/10 Wed-strijd-reg-ele-ment\T1/futs/m/n/10 . \T1/futs/m/sc/10 url\T1/futs/m/n/10 : [][]$\T1/lmtt/m/n/10 https : / / project . 3me . tudelft . nl / Pakkethondje /
  []
 
-[51
+[53
 
 ]
 Overfull \hbox (1.22636pt too wide) in paragraph at lines 56--56
@@ -2083,11 +2093,11 @@ Overfull \hbox (25.47629pt too wide) in paragraph at lines 56--56
 
 (c:\Users\robin\Documents\GitHub\WB32-Ontwerprapport\06_bijlage_E/bijlage_E.tex
 Package cleveref Info: loaded `dutch' language definitions on input line 1.
- [52]
+ [54]
 B"ylage A.
 Package biblatex Info: Reference segment=13 on input line 1.
 Package biblatex Info: Setting label 'refsegment:013' on input line 1.
-<06_bijlage_E/ACCREx_tabel_g.PNG, id=1108, 991.90575pt x 172.2435pt>
+<06_bijlage_E/ACCREx_tabel_g.PNG, id=1117, 991.90575pt x 172.2435pt>
 File: 06_bijlage_E/ACCREx_tabel_g.PNG Graphic file (type png)
 <use 06_bijlage_E/ACCREx_tabel_g.PNG>
 Package pdftex.def Info: 06_bijlage_E/ACCREx_tabel_g.PNG  used on input line 6.
@@ -2095,36 +2105,36 @@ Package pdftex.def Info: 06_bijlage_E/ACCREx_tabel_g.PNG  used on input line 6.
 )
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [53
+ [55
 
 ] (c:\Users\robin\Documents\GitHub\WB32-Ontwerprapport\06_bijlage_A/bijlage_A.tex
 Package cleveref Info: loaded `dutch' language definitions on input line 1.
- [54 <c:/Users/robin/Documents/GitHub/WB32-Ontwerprapport/06_bijlage_E/ACCREx_tabel_g.PNG>]
+ [56 <c:/Users/robin/Documents/GitHub/WB32-Ontwerprapport/06_bijlage_E/ACCREx_tabel_g.PNG>]
 B"ylage B.
 Package biblatex Info: Reference segment=14 on input line 1.
 Package biblatex Info: Setting label 'refsegment:014' on input line 1.
-<06_bijlage_A/morf_kaart.png, id=1119, 1260.71pt x 778.91pt>
+<06_bijlage_A/morf_kaart.png, id=1129, 1260.71pt x 778.91pt>
 File: 06_bijlage_A/morf_kaart.png Graphic file (type png)
 <use 06_bijlage_A/morf_kaart.png>
 Package pdftex.def Info: 06_bijlage_A/morf_kaart.png  used on input line 6.
 (pdftex.def)             Requested size: 512.1496pt x 316.41953pt.
-) (c:\Users\robin\Documents\GitHub\WB32-Ontwerprapport\06_bijlage_B/bijlage_B.tex [55
+) (c:\Users\robin\Documents\GitHub\WB32-Ontwerprapport\06_bijlage_B/bijlage_B.tex [57
 
 ]
 Package cleveref Info: loaded `dutch' language definitions on input line 1.
- [56 <c:/Users/robin/Documents/GitHub/WB32-Ontwerprapport/06_bijlage_A/morf_kaart.png>]
+ [58 <c:/Users/robin/Documents/GitHub/WB32-Ontwerprapport/06_bijlage_A/morf_kaart.png>]
 B"ylage C.
 Package biblatex Info: Reference segment=15 on input line 1.
 Package biblatex Info: Setting label 'refsegment:015' on input line 1.
-[57
+[59
 
 ]
-<06_bijlage_B/wegingen.png, id=1135, 1407.2575pt x 589.20125pt>
+<06_bijlage_B/wegingen.png, id=1144, 1407.2575pt x 589.20125pt>
 File: 06_bijlage_B/wegingen.png Graphic file (type png)
 <use 06_bijlage_B/wegingen.png>
 Package pdftex.def Info: 06_bijlage_B/wegingen.png  used on input line 6.
 (pdftex.def)             Requested size: 512.1496pt x 214.42284pt.
-<gegeven_scores_goed.PNG, id=1137, 419.166pt x 280.04625pt>
+<gegeven_scores_goed.PNG, id=1146, 419.166pt x 280.04625pt>
 File: gegeven_scores_goed.PNG Graphic file (type png)
 <use gegeven_scores_goed.PNG>
 Package pdftex.def Info: gegeven_scores_goed.PNG  used on input line 12.
@@ -2133,7 +2143,7 @@ Package pdftex.def Info: gegeven_scores_goed.PNG  used on input line 12.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Package cleveref Info: loaded `dutch' language definitions on input line 16.
- [58 <c:/Users/robin/Documents/GitHub/WB32-Ontwerprapport/06_bijlage_B/wegingen.png>]) (c:\Users\robin\Documents\GitHub\WB32-Ontwerprapport\06_bijlage_C/Bijlage_C.tex [59 <c:/Users/robin/Documents/GitHub/WB32-Ontwerprapport/gegeven_scores_goed.PNG>] [60
+ [60 <c:/Users/robin/Documents/GitHub/WB32-Ontwerprapport/06_bijlage_B/wegingen.png>]) (c:\Users\robin\Documents\GitHub\WB32-Ontwerprapport\06_bijlage_C/Bijlage_C.tex [61 <c:/Users/robin/Documents/GitHub/WB32-Ontwerprapport/gegeven_scores_goed.PNG>] [62
 
 ]
 B"ylage D.
@@ -2149,17 +2159,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 26--32
 
  []
 
-[61]
+[63]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Package cleveref Info: loaded `dutch' language definitions on input line 84.
- [62]
-<06_bijlage_C/ackermann.PNG, id=1169, 439.6425pt x 392.667pt>
+ [64]
+<06_bijlage_C/ackermann.PNG, id=1178, 439.6425pt x 392.667pt>
 File: 06_bijlage_C/ackermann.PNG Graphic file (type png)
 <use 06_bijlage_C/ackermann.PNG>
 Package pdftex.def Info: 06_bijlage_C/ackermann.PNG  used on input line 89.
 (pdftex.def)             Requested size: 284.52756pt x 254.13406pt.
-<06_bijlage_C/Ackermann2.PNG, id=1171, 458.9145pt x 326.4195pt>
+<06_bijlage_C/Ackermann2.PNG, id=1180, 458.9145pt x 326.4195pt>
 File: 06_bijlage_C/Ackermann2.PNG Graphic file (type png)
 <use 06_bijlage_C/Ackermann2.PNG>
 Package pdftex.def Info: 06_bijlage_C/Ackermann2.PNG  used on input line 97.
@@ -2168,9 +2178,9 @@ Package pdftex.def Info: 06_bijlage_C/Ackermann2.PNG  used on input line 97.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Package cleveref Info: loaded `dutch' language definitions on input line 69.
- [63 <c:/Users/robin/Documents/GitHub/WB32-Ontwerprapport/06_bijlage_C/ackermann.PNG>] (c:\Users\robin\Documents\GitHub\WB32-Ontwerprapport\06_bijlage_D/Bijlage_D.tex
+ [65 <c:/Users/robin/Documents/GitHub/WB32-Ontwerprapport/06_bijlage_C/ackermann.PNG>] (c:\Users\robin\Documents\GitHub\WB32-Ontwerprapport\06_bijlage_D/Bijlage_D.tex
 Package cleveref Info: loaded `dutch' language definitions on input line 1.
- [64 <c:/Users/robin/Documents/GitHub/WB32-Ontwerprapport/06_bijlage_C/Ackermann2.PNG>]
+ [66 <c:/Users/robin/Documents/GitHub/WB32-Ontwerprapport/06_bijlage_C/Ackermann2.PNG>]
 B"ylage E.
 Package biblatex Info: Reference segment=17 on input line 1.
 Package biblatex Info: Setting label 'refsegment:017' on input line 1.
@@ -2178,7 +2188,7 @@ File: 04_gekozenconcept/eindconcept.png Graphic file (type png)
 <use 04_gekozenconcept/eindconcept.png>
 Package pdftex.def Info: 04_gekozenconcept/eindconcept.png  used on input line 6.
 (pdftex.def)             Requested size: 284.52756pt x 151.78117pt.
-<04_gekozenconcept/tekeningeindconcept.png, id=1185, 668.4975pt x 480.5955pt>
+<04_gekozenconcept/tekeningeindconcept.png, id=1194, 668.4975pt x 480.5955pt>
 File: 04_gekozenconcept/tekeningeindconcept.png Graphic file (type png)
 <use 04_gekozenconcept/tekeningeindconcept.png>
 Package pdftex.def Info: 04_gekozenconcept/tekeningeindconcept.png  used on input line 13.
@@ -2191,20 +2201,20 @@ Overfull \hbox (5.4464pt too wide) in paragraph at lines 13--14
 )
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [65
+ [67
 
 ] (c:\Users\robin\Documents\GitHub\WB32-Ontwerprapport\06_bijlage_F/Bijlage_F.tex
 Package cleveref Info: loaded `dutch' language definitions on input line 1.
- [66 <c:/Users/robin/Documents/GitHub/WB32-Ontwerprapport/04_gekozenconcept/tekeningeindconcept.png>]
+ [68 <c:/Users/robin/Documents/GitHub/WB32-Ontwerprapport/04_gekozenconcept/tekeningeindconcept.png>]
 B"ylage F.
 Package biblatex Info: Reference segment=18 on input line 1.
 Package biblatex Info: Setting label 'refsegment:018' on input line 1.
-<06_bijlage_F/As_script/Doorbuiging_as_constanten.PNG, id=1197, 740.7675pt x 355.3275pt>
+<06_bijlage_F/As_script/Doorbuiging_as_constanten.PNG, id=1207, 740.7675pt x 355.3275pt>
 File: 06_bijlage_F/As_script/Doorbuiging_as_constanten.PNG Graphic file (type png)
 <use 06_bijlage_F/As_script/Doorbuiging_as_constanten.PNG>
 Package pdftex.def Info: 06_bijlage_F/As_script/Doorbuiging_as_constanten.PNG  used on input line 8.
 (pdftex.def)             Requested size: 341.43306pt x 163.77794pt.
-<06_bijlage_F/As_script/Doorbuiging_as_krachten_analyse.PNG, id=1198, 748.59676pt x 228.25275pt>
+<06_bijlage_F/As_script/Doorbuiging_as_krachten_analyse.PNG, id=1208, 748.59676pt x 228.25275pt>
 File: 06_bijlage_F/As_script/Doorbuiging_as_krachten_analyse.PNG Graphic file (type png)
 <use 06_bijlage_F/As_script/Doorbuiging_as_krachten_analyse.PNG>
 Package pdftex.def Info: 06_bijlage_F/As_script/Doorbuiging_as_krachten_analyse.PNG  used on input line 17.
@@ -2212,20 +2222,20 @@ Package pdftex.def Info: 06_bijlage_F/As_script/Doorbuiging_as_krachten_analyse.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [67
+ [69
 
  <c:/Users/robin/Documents/GitHub/WB32-Ontwerprapport/06_bijlage_F/As_script/Doorbuiging_as_constanten.PNG>]
-<06_bijlage_F/As_script/Doorbuiging_as_functies.PNG, id=1206, 730.52925pt x 397.485pt>
+<06_bijlage_F/As_script/Doorbuiging_as_functies.PNG, id=1215, 730.52925pt x 397.485pt>
 File: 06_bijlage_F/As_script/Doorbuiging_as_functies.PNG Graphic file (type png)
 <use 06_bijlage_F/As_script/Doorbuiging_as_functies.PNG>
 Package pdftex.def Info: 06_bijlage_F/As_script/Doorbuiging_as_functies.PNG  used on input line 26.
 (pdftex.def)             Requested size: 341.43306pt x 185.78084pt.
-<06_bijlage_F/As_script/Doorbuiging_as_forloop.PNG, id=1207, 744.381pt x 161.403pt>
+<06_bijlage_F/As_script/Doorbuiging_as_forloop.PNG, id=1216, 744.381pt x 161.403pt>
 File: 06_bijlage_F/As_script/Doorbuiging_as_forloop.PNG Graphic file (type png)
 <use 06_bijlage_F/As_script/Doorbuiging_as_forloop.PNG>
 Package pdftex.def Info: 06_bijlage_F/As_script/Doorbuiging_as_forloop.PNG  used on input line 35.
 (pdftex.def)             Requested size: 341.43306pt x 74.03201pt.
-<06_bijlage_F/As_script/Doorbuiging_as_plottenprinten.PNG, id=1208, 747.9945pt x 381.22424pt>
+<06_bijlage_F/As_script/Doorbuiging_as_plottenprinten.PNG, id=1217, 747.9945pt x 381.22424pt>
 File: 06_bijlage_F/As_script/Doorbuiging_as_plottenprinten.PNG Graphic file (type png)
 <use 06_bijlage_F/As_script/Doorbuiging_as_plottenprinten.PNG>
 Package pdftex.def Info: 06_bijlage_F/As_script/Doorbuiging_as_plottenprinten.PNG  used on input line 44.
@@ -2234,13 +2244,13 @@ Package pdftex.def Info: 06_bijlage_F/As_script/Doorbuiging_as_plottenprinten.PN
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Package cleveref Info: loaded `dutch' language definitions on input line 49.
- [68 <c:/Users/robin/Documents/GitHub/WB32-Ontwerprapport/06_bijlage_F/As_script/Doorbuiging_as_krachten_analyse.PNG> <c:/Users/robin/Documents/GitHub/WB32-Ontwerprapport/06_bijlage_F/As_script/Doorbuiging_as_functies.PNG> <c:/Users/robin/Documents/GitHub/WB32-Ontwerprapport/06_bijlage_F/As_script/Doorbuiging_as_forloop.PNG>]
-<04_conceptdimensionering/Constanten_schaarlift.PNG, id=1219, 477.58424pt x 238.491pt>
+ [70 <c:/Users/robin/Documents/GitHub/WB32-Ontwerprapport/06_bijlage_F/As_script/Doorbuiging_as_krachten_analyse.PNG> <c:/Users/robin/Documents/GitHub/WB32-Ontwerprapport/06_bijlage_F/As_script/Doorbuiging_as_functies.PNG> <c:/Users/robin/Documents/GitHub/WB32-Ontwerprapport/06_bijlage_F/As_script/Doorbuiging_as_forloop.PNG>]
+<04_conceptdimensionering/Constanten_schaarlift.PNG, id=1228, 477.58424pt x 238.491pt>
 File: 04_conceptdimensionering/Constanten_schaarlift.PNG Graphic file (type png)
 <use 04_conceptdimensionering/Constanten_schaarlift.PNG>
 Package pdftex.def Info: 04_conceptdimensionering/Constanten_schaarlift.PNG  used on input line 56.
 (pdftex.def)             Requested size: 341.43306pt x 170.5052pt.
-<06_bijlage_F/Schaarlift_script/berekeningen_schaarlift.PNG, id=1220, 743.77875pt x 332.442pt>
+<06_bijlage_F/Schaarlift_script/berekeningen_schaarlift.PNG, id=1229, 743.77875pt x 332.442pt>
 File: 06_bijlage_F/Schaarlift_script/berekeningen_schaarlift.PNG Graphic file (type png)
 <use 06_bijlage_F/Schaarlift_script/berekeningen_schaarlift.PNG>
 Package pdftex.def Info: 06_bijlage_F/Schaarlift_script/berekeningen_schaarlift.PNG  used on input line 64.
@@ -2249,13 +2259,13 @@ Package pdftex.def Info: 06_bijlage_F/Schaarlift_script/berekeningen_schaarlift.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Package cleveref Info: loaded `dutch' language definitions on input line 69.
- [69 <c:/Users/robin/Documents/GitHub/WB32-Ontwerprapport/06_bijlage_F/As_script/Doorbuiging_as_plottenprinten.PNG> <c:/Users/robin/Documents/GitHub/WB32-Ontwerprapport/04_conceptdimensionering/Constanten_schaarlift.PNG>]
-<06_bijlage_F/Schaarlift_script/prints1_schaarlift.PNG, id=1228, 743.77875pt x 451.08525pt>
+ [71 <c:/Users/robin/Documents/GitHub/WB32-Ontwerprapport/06_bijlage_F/As_script/Doorbuiging_as_plottenprinten.PNG> <c:/Users/robin/Documents/GitHub/WB32-Ontwerprapport/04_conceptdimensionering/Constanten_schaarlift.PNG>]
+<06_bijlage_F/Schaarlift_script/prints1_schaarlift.PNG, id=1237, 743.77875pt x 451.08525pt>
 File: 06_bijlage_F/Schaarlift_script/prints1_schaarlift.PNG Graphic file (type png)
 <use 06_bijlage_F/Schaarlift_script/prints1_schaarlift.PNG>
 Package pdftex.def Info: 06_bijlage_F/Schaarlift_script/prints1_schaarlift.PNG  used on input line 72.
 (pdftex.def)             Requested size: 341.43306pt x 207.07498pt.
-<06_bijlage_F/Schaarlift_script/prints2_schaarlift.PNG, id=1229, 749.199pt x 484.81125pt>
+<06_bijlage_F/Schaarlift_script/prints2_schaarlift.PNG, id=1238, 749.199pt x 484.81125pt>
 File: 06_bijlage_F/Schaarlift_script/prints2_schaarlift.PNG Graphic file (type png)
 <use 06_bijlage_F/Schaarlift_script/prints2_schaarlift.PNG>
 Package pdftex.def Info: 06_bijlage_F/Schaarlift_script/prints2_schaarlift.PNG  used on input line 80.
@@ -2264,13 +2274,13 @@ Package pdftex.def Info: 06_bijlage_F/Schaarlift_script/prints2_schaarlift.PNG  
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Package cleveref Info: loaded `dutch' language definitions on input line 85.
- [70 <c:/Users/robin/Documents/GitHub/WB32-Ontwerprapport/06_bijlage_F/Schaarlift_script/berekeningen_schaarlift.PNG> <c:/Users/robin/Documents/GitHub/WB32-Ontwerprapport/06_bijlage_F/Schaarlift_script/prints1_schaarlift.PNG>]
-<06_bijlage_F/onderkant_u_profiel/constanten_onderkant.PNG, id=1238, 769.6755pt x 401.70074pt>
+ [72 <c:/Users/robin/Documents/GitHub/WB32-Ontwerprapport/06_bijlage_F/Schaarlift_script/berekeningen_schaarlift.PNG> <c:/Users/robin/Documents/GitHub/WB32-Ontwerprapport/06_bijlage_F/Schaarlift_script/prints1_schaarlift.PNG>]
+<06_bijlage_F/onderkant_u_profiel/constanten_onderkant.PNG, id=1247, 769.6755pt x 401.70074pt>
 File: 06_bijlage_F/onderkant_u_profiel/constanten_onderkant.PNG Graphic file (type png)
 <use 06_bijlage_F/onderkant_u_profiel/constanten_onderkant.PNG>
 Package pdftex.def Info: 06_bijlage_F/onderkant_u_profiel/constanten_onderkant.PNG  used on input line 91.
 (pdftex.def)             Requested size: 341.43306pt x 178.19542pt.
-<06_bijlage_F/onderkant_u_profiel/krachtenanalyse_onderkant.PNG, id=1239, 751.608pt x 221.628pt>
+<06_bijlage_F/onderkant_u_profiel/krachtenanalyse_onderkant.PNG, id=1248, 751.608pt x 221.628pt>
 File: 06_bijlage_F/onderkant_u_profiel/krachtenanalyse_onderkant.PNG Graphic file (type png)
 <use 06_bijlage_F/onderkant_u_profiel/krachtenanalyse_onderkant.PNG>
 Package pdftex.def Info: 06_bijlage_F/onderkant_u_profiel/krachtenanalyse_onderkant.PNG  used on input line 99.
@@ -2279,13 +2289,13 @@ Package pdftex.def Info: 06_bijlage_F/onderkant_u_profiel/krachtenanalyse_onderk
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Package cleveref Info: loaded `dutch' language definitions on input line 104.
- [71 <c:/Users/robin/Documents/GitHub/WB32-Ontwerprapport/06_bijlage_F/Schaarlift_script/prints2_schaarlift.PNG> <c:/Users/robin/Documents/GitHub/WB32-Ontwerprapport/06_bijlage_F/onderkant_u_profiel/constanten_onderkant.PNG>]
-<06_bijlage_F/onderkant_u_profiel/formules_onderkant.PNG, id=1247, 779.3115pt x 388.45125pt>
+ [73 <c:/Users/robin/Documents/GitHub/WB32-Ontwerprapport/06_bijlage_F/Schaarlift_script/prints2_schaarlift.PNG> <c:/Users/robin/Documents/GitHub/WB32-Ontwerprapport/06_bijlage_F/onderkant_u_profiel/constanten_onderkant.PNG>]
+<06_bijlage_F/onderkant_u_profiel/formules_onderkant.PNG, id=1257, 779.3115pt x 388.45125pt>
 File: 06_bijlage_F/onderkant_u_profiel/formules_onderkant.PNG Graphic file (type png)
 <use 06_bijlage_F/onderkant_u_profiel/formules_onderkant.PNG>
 Package pdftex.def Info: 06_bijlage_F/onderkant_u_profiel/formules_onderkant.PNG  used on input line 107.
 (pdftex.def)             Requested size: 341.43306pt x 170.19002pt.
-<06_bijlage_F/onderkant_u_profiel/forloop_onderkant.PNG, id=1248, 780.516pt x 416.15475pt>
+<06_bijlage_F/onderkant_u_profiel/forloop_onderkant.PNG, id=1258, 780.516pt x 416.15475pt>
 File: 06_bijlage_F/onderkant_u_profiel/forloop_onderkant.PNG Graphic file (type png)
 <use 06_bijlage_F/onderkant_u_profiel/forloop_onderkant.PNG>
 Package pdftex.def Info: 06_bijlage_F/onderkant_u_profiel/forloop_onderkant.PNG  used on input line 115.
@@ -2294,15 +2304,15 @@ Package pdftex.def Info: 06_bijlage_F/onderkant_u_profiel/forloop_onderkant.PNG 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Package cleveref Info: loaded `dutch' language definitions on input line 120.
- [72 <c:/Users/robin/Documents/GitHub/WB32-Ontwerprapport/06_bijlage_F/onderkant_u_profiel/krachtenanalyse_onderkant.PNG> <c:/Users/robin/Documents/GitHub/WB32-Ontwerprapport/06_bijlage_F/onderkant_u_profiel/formules_onderkant.PNG>]
-<06_bijlage_F/onderkant_u_profiel/print2_onderkant.PNG, id=1257, 644.4075pt x 292.6935pt>
+ [74 <c:/Users/robin/Documents/GitHub/WB32-Ontwerprapport/06_bijlage_F/onderkant_u_profiel/krachtenanalyse_onderkant.PNG> <c:/Users/robin/Documents/GitHub/WB32-Ontwerprapport/06_bijlage_F/onderkant_u_profiel/formules_onderkant.PNG>]
+<06_bijlage_F/onderkant_u_profiel/print2_onderkant.PNG, id=1267, 644.4075pt x 292.6935pt>
 File: 06_bijlage_F/onderkant_u_profiel/print2_onderkant.PNG Graphic file (type png)
 <use 06_bijlage_F/onderkant_u_profiel/print2_onderkant.PNG>
 Package pdftex.def Info: 06_bijlage_F/onderkant_u_profiel/print2_onderkant.PNG  used on input line 123.
 (pdftex.def)             Requested size: 341.43306pt x 155.08661pt.
 ) (c:\Users\robin\Documents\GitHub\WB32-Ontwerprapport\06_Bijlage_G/specs_lijst.tex
 Package cleveref Info: loaded `dutch' language definitions on input line 1.
- [73 <c:/Users/robin/Documents/GitHub/WB32-Ontwerprapport/06_bijlage_F/onderkant_u_profiel/forloop_onderkant.PNG> <c:/Users/robin/Documents/GitHub/WB32-Ontwerprapport/06_bijlage_F/onderkant_u_profiel/print2_onderkant.PNG>] [74
+ [75 <c:/Users/robin/Documents/GitHub/WB32-Ontwerprapport/06_bijlage_F/onderkant_u_profiel/forloop_onderkant.PNG> <c:/Users/robin/Documents/GitHub/WB32-Ontwerprapport/06_bijlage_F/onderkant_u_profiel/print2_onderkant.PNG>] [76
 
 ]
 B"ylage G.
@@ -2313,7 +2323,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--9
 
  []
 
-[75]
+[77]
 Underfull \hbox (badness 10000) in paragraph at lines 47--53
 
  []
@@ -2324,7 +2334,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 54--64
  []
 
 Package cleveref Info: loaded `dutch' language definitions on input line 82.
-[76]
+[78]
 Underfull \hbox (badness 10000) in paragraph at lines 83--91
 
  []
@@ -2337,9 +2347,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 111--124
 
 Underfull \vbox (badness 2111) has occurred while \output is active []
 
- [77])
+ [79])
 Package cleveref Info: loaded `dutch' language definitions on input line 77.
- [78]
+ [80]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 77.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 77.
  (c:\Users\robin\Documents\GitHub\WB32-Ontwerprapport\0_WOP3.aux
@@ -2355,17 +2365,17 @@ Package logreq Info: Writing requests to '0_WOP3.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 77.
  ) 
 Here is how much of TeX's memory you used:
- 32404 strings out of 480934
- 622118 string characters out of 2899918
- 1239641 words of memory out of 3000000
- 47193 multiletter control sequences out of 15000+200000
+ 32414 strings out of 480931
+ 622281 string characters out of 2899796
+ 1240697 words of memory out of 3000000
+ 47203 multiletter control sequences out of 15000+200000
  657674 words of font info for 116 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  68i,17n,74p,1183b,3867s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/robin/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}{C:/Users/robin/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}<C:/Users/robin/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/fourier/fourier-alt-ita.pfb><C:/Users/robin/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/fourier/fourier-alt.pfb><C:/Users/robin/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/fourier/fourier-ms.pfb><C:/Users/robin/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb><C:/Users/robin/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/adobe/utopia/putb8a.pfb><C:/Users/robin/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/adobe/utopia/putbi8a.pfb><C:/Users/robin/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/adobe/utopia/putr8a.pfb><C:/Users/robin/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/adobe/utopia/putri8a.pfb>
-Output written on c:\Users\robin\Documents\GitHub\WB32-Ontwerprapport\0_WOP3.pdf (90 pages, 18839454 bytes).
+Output written on c:\Users\robin\Documents\GitHub\WB32-Ontwerprapport\0_WOP3.pdf (92 pages, 12722787 bytes).
 PDF statistics:
- 1403 PDF objects out of 1440 (max. 8388607)
- 303 named destinations out of 1000 (max. 500000)
+ 1413 PDF objects out of 1440 (max. 8388607)
+ 305 named destinations out of 1000 (max. 500000)
  941 words of extra memory for PDF output out of 10000 (max. 10000000)
 
