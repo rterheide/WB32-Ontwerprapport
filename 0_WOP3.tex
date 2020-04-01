@@ -1,0 +1,77 @@
+\documentclass[dutch]{0_dissertation}
+
+\usepackage{float}
+\usepackage{tabularx}
+\addbibresource{0_ref.bib}
+
+\begin{document}
+
+\renewcommand{\contentsname}{Inhoudsopgave}
+
+%% Specify the title. This information will be used on
+%% the title page (in title/title.tex) and in the metadata of the final PDF.
+
+\title[Ontwerpopdracht pakkethondje]{Ontwerprapport 1}
+
+\frontmatter
+
+%Zet hier alles neer dat voor de table of contents komt.
+
+\input{01_title/title}
+
+\input{02_voorwoord/voorwoord}
+
+\input{03_samenvatting/samenvatting}
+
+\renewcommand{\contentsname}{Inhoudsopgave}
+\tableofcontents
+
+\mainmatter
+\thumbtrue
+
+%%Zet hier je hoofdstukken neer
+
+\input{04_inleiding/inleiding}
+
+\input{04_opdrachtanalyse/opdrachtanalyse}
+
+\input{04_idee_ontwikkeling/idee_ontwikkeling}
+
+\input{04_conceptKeuze/conceptKeuze}
+
+\input{04_gekozenconcept/gekozenconcept}
+
+\input{04_conceptdimensionering/Conceptdimensionering}
+
+\input{04_vervaardigingsplan/vervaardigingsplan}
+
+\input{04_prestatieverwachting/prestatieverwachting}
+
+\input{05_conclusie/conclusie}
+
+
+
+\renewcommand\bibname{Literatuurlijst}
+
+\printbibliography[heading=bibnumbered]
+
+\appendix
+
+%% Zet hier je bijlagen neer
+
+\input{06_bijlage_E/bijlage_E}
+
+\input{06_bijlage_A/bijlage_A}
+
+\input{06_bijlage_B/bijlage_B}
+
+\input{06_bijlage_C/Bijlage_C}
+
+\input{06_bijlage_D/Bijlage_D}
+
+\input{06_bijlage_F/Bijlage_F}
+
+\input{06_Bijlage_G/specs_lijst}
+\thumbfalse
+
+\end{document}

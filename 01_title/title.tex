@@ -1,0 +1,75 @@
+\begin{titlepage}
+
+\begin{center}
+
+%% Extra whitespace at the top.
+\vspace*{\bigskipamount}
+
+%% Print the title defined in wop3.tex.
+{\makeatletter
+\titlestyle\bfseries\LARGE\@title
+\makeatother}
+
+%% Print the optional subtitle.
+{\makeatletter
+\ifx\@subtitle\undefined\else
+    \bigskip
+    \titlefont\titleshape\Large\@subtitle
+\fi
+\makeatother}
+
+\vspace{\baselineskip} %creates some space between titles and image
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[height =70mm]{04_gekozenconcept/eindconcept.png}
+    \label{fig:title_image}
+\end{figure}
+
+
+\end{center}
+
+\begin{flushleft}
+
+\bfseries Groepsleden: \mdseries
+\begin{table}[h]
+    \begin{tabular}{lll}
+        Hilbert Bijzitter &  & 5112585 \\
+        Robin ter Heide &  & 4812646 \\
+        Max Leenstra &  &5150566 \\
+        Kevin Tran &  & 4904672 \\
+        Floris Kuck &  & 5112583 \\
+        Beer Mook &  & 5106133
+    \end{tabular}
+\end{table}
+
+ \begin{minipage}{.5\linewidth}
+    \begin{flushleft}
+      Vak:  Werktuigkundig ontwerpproject 3A\\
+      Studentmentor: Christopher Combes\\
+      Docent: Wim van Son \\
+      Docent: Regina Tange-Hoffmann
+    \end{flushleft}
+  \end{minipage}
+  \hfill
+  \begin{minipage}{.45\linewidth}
+    \begin{flushright}
+    Datum: \today\\
+    Studiejaar: 2019 - 2020\\
+    Teamnummer: WB32
+    \end{flushright} 
+\end{minipage}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width = 40mm]{01_title/TUDELFT_LOGO.png}
+\end{figure}
+  
+  
+\cleardoublepage
+\thispagestyle{empty}
+\end{flushleft}
+
+\clearpage
+\thispagestyle{empty}
+\end{titlepage}
