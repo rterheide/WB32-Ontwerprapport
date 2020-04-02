@@ -2,130 +2,435 @@
 \label{Cha: Bijlage_F}
 
 \section{wielassen.}
-\label{Se: bijlage_F wielassen}
-\begin{figure}[H]
-    \centering
-    \includegraphics[width = 120mm]{06_bijlage_F/As_script/Doorbuiging_as_constanten.PNG}
-    \caption{Python script, doorbuiging assen, constanten.}
-    \label{fig:python_d.a._constanten}
-\end{figure}
 
-\vspace{\baselineskip}
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[width = 120mm]{06_bijlage_F/As_script/Doorbuiging_as_krachten_analyse.PNG}
-    \caption{Python script, doorbuiging assen, krachten analyse.}
-    \label{fig:python_d.a._krachtenanalyse}
-\end{figure}
+\begin{lstlisting}[language=Python][style=mystyle]
 
-\vspace{\baselineskip}
+import numpy as np
+import matplotlib.pyplot as plt
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[width = 120mm]{06_bijlage_F/As_script/Doorbuiging_as_functies.PNG}
-    \caption{Python script, doorbuiging assen, functies van dwarskrachten en momenten.}
-    \label{fig:python_d.a._functies}
-\end{figure}
+#Constanten:
 
-\vspace{\baselineskip}
+breedte_PH = 0.40               #m, breedte van het PH
+l = breedte_PH                  #m, lengte van de as (ashouder tot ashouder)
+a = 0.002                       #m, dikte as houders
+b = l - 2*a                     #m, ashouder tot ashouder
+c = 0.005                       #m, afstand van wiel tot ashouder
+m_totaal = 23                   #kg, totale massa van het pakket hondje
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[width = 120mm]{06_bijlage_F/As_script/Doorbuiging_as_forloop.PNG}
-    \caption{Python script, doorbuiging assen, for-loop.}
-    \label{fig:python_d.a._forloop}
-\end{figure}
+g = 9.81                        #m/s^2, gravitatie versnelling
+verdeling_gewicht = (1/3)       #Verdeling van het gewicht op een as
+d_as = 0.008                    #m, diameter van een as
+r_as = (1/2) * d_as             #m, straal van een as
+A_as = np.pi * r_as**2,         #m^2, oppervlak van de doorsnede van de as
 
-\vspace{\baselineskip}
+c = r_as                        #m, grootste vezel afstand
+I = (np.pi / 64) * d_as**4      #m^4, traagheidsmoment
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[width = 120mm]{06_bijlage_F/As_script/Doorbuiging_as_plottenprinten.PNG}
-    \caption{Python script, doorbuiging assen, plots en print waarden.}
-    \label{fig:python_d.a._plotsenprints}
-\end{figure}
-\vspace{\baselineskip}
+E_stl_A36 = 200 * 10**9         #Pa
+Yield_strength = 376 * 10**6    #Pa     
+
+x_lijst = np.linspace(0, 2*c + l, 1000)         #Lege lijst voor de positie
+Q = np.zeros(len(x_lijst))                      #lege lijs van de dwarskrachten
+M = np.zeros(len(x_lijst))                      #lege lijst voor de momenten in de as
+
+
+#Krachten analyse:
+Fz = m_totaal * g                               #N, zwaartekracht van het pakkethondje
+F_totaal = (1/2) * Fz                           #N, kracht die het gewicht uitoefent op een as
+
+F = F_totaal * verdeling_gewicht            #kracht op as door de ashouder bij de eerste ashouder, Newton
+P = F_totaal * (1 - verdeling_gewicht)      #kracht op as door de ashouder bij de tweede ashouder, Newton
+
+S = ( (c + (1/2)*a)*F + (c + (3/2)*a + b)*P ) / (2*c + l)       #reactiekracht bij het eerste wiel , Newton
+R = F + P - S                                                   #reactiekracht bij het tweede wiel, Newton
+
+#print stuk:
+print (' ')
+print('De totale aangenomen massa =', m_totaal, 'kg')
+print('De aangenomen gewichtsverdeling op de twee ashouders =', np.round(verdeling_gewicht, 3), 'tot', np.round(1 - verdeling_gewicht, 3), 'respectievelijk')
+print(' ')
+print('Hieruit volgt:')
+print('De kracht in de eerste ashouder =', np.round(F,2), 'N')
+print('De kracht in de andere ashouder =', np.round(S,2), 'N')
+
+#formules voor de krachten en moment lijnen in de as:
+
+#voor het eerste deel van de as ( 0 < x < c + (1/2)a), x1:
+x1_max = c + (1/2)*a        #Afstand van het eerste wiel tot aangrijpingspunt van de kracht bij de eerste ashouder
+
+def Q1(x):
+    Q = R
+    return Q
+
+def M1(x):
+    M = -x*R
+    return M
+
+#voor het tweede deel van de as ( c+(1/2)a < x < c + b + (3/2)a), x2:
+x2_max = c + b + (3/2)*a    #Afstand van het eerste wiel tot het aangrijpingspunt van de kracht bij de tweede ashouder
+
+def Q2(x):
+    Q = R - F
+    return Q
+
+def M2(x):
+    M = ( x - c - (1/2)*a )*F - x*R
+    return M
+
+#voor het derde deel van de as ( c + b + (3/2)a) < x < l + 2*c):
+x3_max = l + 2*c            #Afstand van wiel tot wiel
+
+def Q3(x):
+    Q = R - P - F
+    return Q
+
+def M3(x):
+    M = (x - c - b - (3/2)*a)*P + (x - c - (1/2)*a)*F - x*R
+    return M
+
+#For loop:
+for i in range(len(x_lijst)):
+    x = x_lijst[i]
+    if x < x1_max:
+        M[i] = M1(x)
+        Q[i] = Q1(x)
+    elif x < x2_max:
+        M[i] = M2(x)
+        Q[i] = Q2(x)
+    elif x < x3_max:
+        M[i] = M3(x)
+        Q[i] = Q3(x)
+      
+    
+    
+#plotten en script:
+plt.plot(x_lijst, M, label = 'momenten lijn')
+plt.xlabel('afstand (m)')
+plt.ylabel('moment (N/m)')
+plt.grid()
+plt.legend()
+
+plt.figure()
+plt.plot(x_lijst, Q, label = 'dwarskrachten lijn')
+plt.xlabel('afstand (m)')
+plt.ylabel('dwarskracht (N)')
+plt.grid()
+plt.legend()
+
+print(' ')
+M_max = min(M)    
+print('Het maximale buigmoment in de as =',np.abs(np.round(M_max,2)), 'N/m')  
+Q_max = max(Q)
+print('De maximale afschuifkracht in de as =', np.abs(np.round(Q_max, 2)), 'N')
+print(' ')
+
+shear_stress_max = 1.4 * (Q_max / A_as)         #N, maximale dwarskracht die op as wordt uitgeoefend
+shear_stress_allow = Yield_strength             #N, yield strength van staal A36
+
+sigma_max = (M_max * c) / I                     #N, maximale drukkracht die op de as wordt uitgeoefend
+sigma_allow = Yield_strength                    #N, yield strength van staal A36
+
+if shear_stress_max < shear_stress_allow and sigma_max < sigma_allow:
+    print('De stalen as zou het gewicht kunnen houden')
+else:
+    print('De stalen as zou het gewicht niet kunnen houden')
+
+\end{lstlisting}
 
 \section{Schaarliften}
 \label{se: bijlage_F schaarliften}
 \vspace{\baselineskip}
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[width = 120mm]{04_conceptdimensionering/Constanten_schaarlift.PNG}
-    \caption{Python script, schaarliften.}
-    \label{fig:schaarliften_constanten}
-\end{figure}
-\vspace{\baselineskip}
+\begin{lstlisting}[language=Python][style=mystyle]
+import numpy as np
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[width = 120mm]{06_bijlage_F/Schaarlift_script/berekeningen_schaarlift.PNG}
-    \caption{Python script, schaarliften.}
-    \label{fig:schaarliften_berekeningen}
-\end{figure}
-\vspace{\baselineskip}
+#constanten:
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[width = 120mm]{06_bijlage_F/Schaarlift_script/prints1_schaarlift.PNG}
-    \caption{Python script, schaarliften.}
-    \label{fig:schaarliften_sript1}
-\end{figure}
-\vspace{\baselineskip}
+h1 = 0.45                    #meter, hoogte van ontvangen pakket
+h2 = 0.15                   #meter, hoogte tijdens het rijden
+h3 = 0.55                   #meter, hoogte tijdens het nemen van het talud
+Theta_max = 50              #graden, maximale hoek
+Breedte_toelaatbaar = 0.4   #meter, breedte van de wielbasis
+m_totaal = 18                       #kg
+g = 9.81                            #m/s^2
+b_member = 0.005                    #m
+d_member = 0.01                     #m
+E_stl_A36 = 200 * 10 ** 9           #Pa
+E_stl_A992 = 200 * 10 ** 9          #Pa
+E_stl_304 = 193 * 10 ** 9           #Pa
+E_alu = 73.1 * 10 ** 9              #Pa
+l_verhuisdoos = 0.48                #m
+t_dikte_koker = 0.002               #m
+b_breedte_koker = 0.035              #m
+h_hoogte_koker = 0.035              #m
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[width = 120mm]{06_bijlage_F/Schaarlift_script/prints2_schaarlift.PNG}
-    \caption{Python script, schaarliften.}
-    \label{fig:schaarliften_sript2}
-\end{figure}
+#berekeningen, lengtes en hoeken
+
+Theta_max_rad = (Theta_max  * 2 * np.pi) / 360
+
+l = (0.5 * h3) / ( np.sin(Theta_max_rad) )
+
+Theta_min_rad = np.arcsin( (0.5 * h2) / l)
+
+Theta_min = (Theta_min_rad*360) / (2*np.pi)
+
+Breedte = ( l**2 - (0.25 * h2**2) )**0.5
+
+
+#berekeningen, krachten en richtingen
+
+Theta_member_rad = Theta_min_rad    #rad
+
+F_member = (m_totaal * g) / np.sin(Theta_member_rad)
+F_draad = F_member * np.cos(Theta_member_rad)
+
+opp_member = b_member * d_member
+sigma_member = F_member / opp_member
+
+#berekeningen knik:
+
+I_rechthoek = (1/12) * b_member * d_member**3
+I_koker = (1/12)*b_breedte_koker*(h_hoogte_koker)**3 - ((1/12)*(b_breedte_koker-2*t_dikte_koker)*(h_hoogte_koker-2*t_dikte_koker)**3)
+
+#scripts
+
+print(' ')
+print('Stel:')
+print(' ')
+print('m_totaal =', m_totaal, 'kg')
+print('Theta_max =', Theta_max, 'graden')
+print('Maximale toelaatbare breedte =', Breedte_toelaatbaar, 'm')
+print(' ')
+print('De hoogte van het chassis als het pakkethondje rijdt,            h2, is:', h2, 'm')
+print('De hoogte die het meubelhondje heeft voor pakket laden/lossen,       h1, is:', h1, 'm')
+print('De hoogte die het pakkethondje heeft tijdens het talud nemen,        h3, is:', h3, 'm')
+print(' ')
+print('dan geld het volgende,')
+print(' ')
+print(' ')
+print(' ')
+
+print('DE WAARDEN VOOR DE SCHAARLIFTEN ZIJN:')
+print(' ')
+print('THETA_MAX:', Theta_max, ' graden')
+print('THETA_MIN:', np.round(Theta_min, 2), ' graden')
+print('BREEDTE MEMBER:', np.round(Breedte, 2), ' meter')
+print('LENGTE MEMBER:', np.round(l, 2), ' meter')
+print(' ')
+if l >= l_verhuisdoos:
+    print('De members passen niet in een verhuisdoos')
+else:
+    print('De members passen in een verhuisdoos')
+print(' ')
+print(' ')
+print('VOOR DE KRACHTEN:')
+print(' ')
+print('KRACHT IN MEMBER:', np.round(F_member,2), 'N', '. Het member staat in druk.')
+print('KRACHT IN DRAAD:', np.round(F_draad,2),'N')
+print('SPANNING IN MEMBER:', np.round(sigma_member, 2), 'N/m')
+print(' ')
+
+if Breedte < Breedte_toelaatbaar:
+    print('De maximale breedte die de schaarlift aanneemt is toegestaan.')
+else:
+    print('De maximale breedte die de schaarlift aanneemt is niet toegestaan')
+    
+print(' ')
+print(' ')
+print('VOOR DE DRUKBELASTING GELDT:')
+print(' ')
+
+
+
+E_metalen = [E_stl_A36, E_stl_A992, E_stl_304, E_alu]
+metalen= ['stl_A36', 'stl_A992', 'stl_304', 'aluminium']
+
+print('Voor een rechthoek profiel geldt:')
+print(' ')
+for i in range(len(E_metalen)):
+    E = E_metalen[i]
+    F_knik = (2.046*(np.pi)**2 * E * I_rechthoek ) / (((1/2)*l)**2)
+    print(np.round(F_knik, 2), 'N ,is de maximale druk kracht voor', metalen[i])
+    if F_knik > F_member:
+        print('De Schaarlift kan de drukkracht aan.')
+    else:
+        print('De schaarlift kan de drukkracht niet aan.')
+    print(' ')
+
+print(' ')
+print(' ')
+print('Voor een koker profiel geldt:')
+print(' ')
+for i in range(len(E_metalen)):
+    E = E_metalen[i]
+    F_knik = (2.046*(np.pi)**2 * E * I_koker ) / (((1/2)*l)**2)
+    print(np.round(F_knik, 2), 'N ,is de maximale druk kracht voor', metalen[i])
+    if F_knik > F_member:
+        print('De Schaarlift kan de drukkracht aan.')
+    else:
+        print('De schaarlift kan de drukkracht niet aan.')
+    print(' ')
+
+\end{lstlisting}
 \vspace{\baselineskip}
 
 \section{U-profiel aan de onderkant van de kar}
 \label{se: onderkant_u-profiel}
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[width = 120mm]{06_bijlage_F/onderkant_u_profiel/constanten_onderkant.PNG}
-    \caption{Python script, u-profiel.}
-    \label{fig:u-profiel_constanten}
-\end{figure}
-\vspace{\baselineskip}
+\begin{lstlisting}[language=Python][style=mystyle]
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[width = 120mm]{06_bijlage_F/onderkant_u_profiel/krachtenanalyse_onderkant.PNG}
-    \caption{Python script, u-profiel.}
-    \label{fig:u-profiel_krachtenanalyse}
-\end{figure}
-\vspace{\baselineskip}
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[width = 120mm]{06_bijlage_F/onderkant_u_profiel/formules_onderkant.PNG}
-    \caption{Python script, u-profiel.}
-    \label{fig:u-profiel_formules}
-\end{figure}
-\vspace{\baselineskip}
+import numpy as np
+import matplotlib.pyplot as plt
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[width = 120mm]{06_bijlage_F/onderkant_u_profiel/forloop_onderkant.PNG}
-    \caption{Python script, u-profiel.}
-    \label{fig:u-profiel_forloop}
-\end{figure}
-\vspace{\baselineskip}
+#constanten:
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[width = 120mm]{06_bijlage_F/onderkant_u_profiel/print2_onderkant.PNG}
-    \caption{Python script, u-profiel.}
-    \label{fig:u-profiel_print}
-\end{figure}
-\vspace{\baselineskip}
+lengte_member = 0.36    #m, lengte van een link
+l = 0.38            #m, breedte pakkethondje
+a = 0.05            #m, afstand van eerste links tot ashouder
+Theta_max = 50      #graden, maximale hoek van de schaarliften
+Theta_max_rad = (Theta_max*np.pi*2) /360        #rad, maximale hoek van de schaarliften
+m_totaal = 20                                   #kg
+verdeling_gewicht = (2/3)                       #gewicht op een schaarlift (maximaal)
+verdeling_kracht = (1/2)
+g = 9.81                                        #m/s^2
+dist = np.cos(Theta_max_rad) * lengte_member    #m, afstand van de twee links op het u-profiel
+z = l - a - dist
 
+d_profiel = 0.002
+l_vlap = 0.01
+h_profiel = 0.01
+c = 0.5 * h_profiel
+
+A_profiel = 2 * (d_profiel * l_vlap) + (h_profiel * d_profiel)
+
+d1 = a                                  
+d2 = a + dist
+
+x_lijst = np.linspace(0,l,1000)
+Q = np.zeros(len(x_lijst))
+M = np.zeros(len(x_lijst))
+
+E_stl_A36 = 200 * 10**9         #Pa
+Yield_strength_stl = 376 * 10**6    #Pa   (staal)
+
+E_alu = 70 * 10**9              #Pa
+Yield_strength_alu = 109 * 10**6 #Pa
+
+#voor het traagheidsmoment geldt:
+
+I_1 = (1/12)*d_profiel*h_profiel**3
+I_3 = (1/12)*l_vlap*d_profiel**3 + (l_vlap*d_profiel)*( 0.5*h_profiel )**2
+
+I_koker = 2*I_1 + I_3
+
+
+#Ontbinding van de krachten
+Fz = m_totaal * g                               #N
+Fz_deel = Fz * verdeling_gewicht                #N
+Fx = Fz_deel * np.cos(Theta_max_rad)            #N, kracht in de horizontale richting uitgeoefend op het profiel 
+Fy = Fz_deel * np.sin(Theta_max_rad)            #N, kracht in de verticale richting uitgeoefend op het profiel
+F_member_1 = Fy * verdeling_kracht              #N, Kracht dat het eerste member uitoefent op het profiel
+F_member_2 = Fy * (1-verdeling_kracht)          #N, Kracht dat het tweede member uitoefent op het profiel
+
+R_2 = ( a*F_member_1 + (a+dist)*F_member_2) / l #N, reactiekracht bij de eerste ashouder
+R_1 = F_member_1 + F_member_2 - R_2             #N, reactiekracht bij de tweede ashouder
+
+#voor het eerste deel van het profiel ( 0 < x < d1), x1:
+x1_max = d1
+
+def Q1(x):
+    Q = R_1
+    return Q
+
+def M1(x):
+    M = -x*R_1
+    return M
+
+#voor het tweede deel van de as ( x1_max < x < x2_max), x2:
+x2_max = a + dist
+
+def Q2(x):
+    Q = R_1 - F_member_1
+    return Q
+
+def M2(x):
+    M = ( x - a )*F_member_1 - x*R_1
+    return M
+
+#voor het derde deel van de as ( x2_max < x < x3_max):
+x3_max = l 
+
+def Q3(x):
+    Q = R_1 - F_member_1 - F_member_2
+    return Q
+
+def M3(x):
+    M = (x - a - dist)*F_member_2 + (x - a)*F_member_1 - x*R_1
+    return M
+
+for i in range(len(x_lijst)):
+    x = x_lijst[i]
+    if x < x1_max:
+        M[i] = M1(x)
+        Q[i] = Q1(x)
+    elif x < x2_max:
+        M[i] = M2(x)
+        Q[i] = Q2(x)
+    elif x < x3_max:
+        M[i] = M3(x)
+        Q[i] = Q3(x)
+
+#plotten en script:
+
+plt.plot(x_lijst, M, label = 'momenten lijn')
+plt.xlabel('afstand (m)')
+plt.ylabel('moment (N/m)')
+plt.grid()
+plt.legend()
+
+
+plt.figure()
+plt.plot(x_lijst, Q, label = 'dwarskrachten lijn')
+plt.xlabel('afstand (m)')
+plt.ylabel('dwarskracht (N)')
+plt.grid()
+plt.legend()
+
+print(' ')
+M_max = min(M)    
+print('Het maximale buigmoment in de as =',np.abs(np.round(M_max,2)), 'N/m')  
+Q_max = max(Q)
+print('De maximale afschuifkracht in de as =', np.abs(np.round(Q_max, 2)), 'N')
+print(' ')
+
+sigma = Fx / A_profiel
+    
+shear_stress_max = 1.4 * (Q_max / A_profiel)
+shear_stress_allow_stl = Yield_strength_stl
+shear_stress_allow_alu = Yield_strength_alu
+
+sigma_max = (M_max * c) / I_koker
+sigma_allow_stl = Yield_strength_stl
+sigma_allow_alu = Yield_strength_alu
+
+if sigma_max < sigma_allow_stl and sigma < Yield_strength_stl:
+    print('Het stalen profiel is in staat op de kracht van het pakkethondje op te vangen')
+else:
+    print('Het stalen profiel is niet in staat op de kracht van het pakkethondje op te vangen')
+
+if sigma_max < sigma_allow_alu and sigma < Yield_strength_alu:
+    print('Het aluminium profiel is in staat op de kracht van het pakkethondje op te vangen')
+else:
+    print('Het aluminium profiel is niet in staat op de kracht van het pakkethondje op te vangen')
+
+print(' ')
+print('De reactie kracht van het eerste wiel op de aarde =', np.round(R_1,2), 'N')
+print('De reactie kracht van het tweede wiel op de aarde =', np.round(R_2,2), 'N')
+
+
+\end{lstlisting}
 
 
 
