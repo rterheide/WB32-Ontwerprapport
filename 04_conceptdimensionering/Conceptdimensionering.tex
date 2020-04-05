@@ -50,8 +50,8 @@ Bij het ackermann stuursysteem wordt er uitgegaan van het Ackermann principe: de
     \caption{Ackermann Stuursysteem, }
     \label{fig: ackermann_FBD}
 \end{figure}
-
 \vspace{1mm}
+
 \textbf{L-profiel aan de bovenkant van de kar.}
 
 \vspace{1mm}
@@ -64,7 +64,7 @@ De wielassen en de schaarliften moeten aan elkaar worden bevestigd, dit doet het
 \vspace{\baselineskip}
 
 \textbf{De wielassen}.\\
-Er is gerekend aan de assen en de conclusie is dat een 6/8 mm as van staal voldoet. De berekening is gemaakt in een python script, zie \cref{Cha: Bijlage_F}.\\
+Er is gerekend aan de assen en de conclusie is dat een 6/8 mm as van staal voldoet. De berekening is gemaakt in een python script, zie \cref{Cha:Bijlage_F}.\\
 \vspace{\baselineskip}
 De berekening is als volgt opgezet:\\
 Om aan de situatie te kunnen rekenen, moest eerst de situatie versimpeld worden en tot een reëel FBD worden gebracht, zie \cref{fig: as_FBD}. Hier is aangenomen dat je de as kan beschouwen als een aan twee kanten ingeklemde balk. Ook is F niet P, door een verdeling van gewicht. Deze verdeling is bekend.
@@ -75,7 +75,7 @@ Om aan de situatie te kunnen rekenen, moest eerst de situatie versimpeld worden 
     \label{fig: as_FBD}
 \end{figure}
 
-Door middel van de snede methode kan je vervolgens de krachten en momenten lijn opstellen, deze berekening is te zien in \cref{Cha: Bijlage_F}. In \cref{fig: as_constanten} zijn de constanten te zien die zijn gebruikt voor het bepalen van de momenten en krachten lijn. Deze constanten hebben geleid tot de momenten en krachten lijn die te zien zijn in \cref{fig: Momentenlijn_as} en \cref{fig: Krachtenlijn_as}. \\
+Door middel van de snede methode kan je vervolgens de krachten en momenten lijn opstellen, deze berekening is te zien in \cref{Cha:Bijlage_F}. In \cref{fig: as_constanten} zijn de constanten te zien die zijn gebruikt voor het bepalen van de momenten en krachten lijn. Deze constanten hebben geleid tot de momenten en krachten lijn die te zien zijn in \cref{fig: Momentenlijn_as} en \cref{fig: Krachtenlijn_as}. \\
 
 \begin{figure}[H]
     \includegraphics[width = 100mm]{04_conceptdimensionering/Constanten_as_goed.PNG}
@@ -103,8 +103,10 @@ Voor de schaarliften is naar een aantal dingen gekeken:\\
 \begin{enumerate}
     \item \textbf{De vorm van belasting.} Er is een FBD van de schaarlift en van een members opgesteld om te kijken naar de vorm van de belasting op de onderdelen, zie \cref{fig: FBD_member}. Uit deze FBD kan worden geconcludeerd dat de members van de schaarlift op zuivere druk worden belast. Hierdoor moet rekening worden gehouden met knik en met de druksterkte van het materiaal.\\
     \item \textbf{De mate van belasting.} Om te bepalen wat de grootte van de belasting is moeten de krachten worden ontleden. Gebleken is na onderzoek door middel van een python script (\cref{se: bijlage_F schaarliften}) dat de members de belasting kunnen hebben. Uit het script worden bepaalde conclusies getrokken die te vinden zijn in \cref{fig: Kernel_schaarlift_1} en \cref{fig: Kernel_schaarlift_2}.\\
-    \item \textbf{Het profiel van de members.} Uit het onderzoek is gebleken dat de members op een zuivere druk worden belast. Dit betekend dat er niet voor een specifiek profiel hoeft worden gekozen mits het oppervlak van een doorsnede groot genoeg is. Toch hebben wij voor een koker-profiel gekozen omdat naast de verwachtte krachten langs de members het ook waarschijnlijk is dat er krachten zullen opspelen in andere richtingen. Daarom is voor de zekerheid gekozen voor een koker profiel met de dimensionering die te vinden is in \cref{fig:schaarliften_constanten} in \cref{se: bijlage_F schaarliften}. Ook zijn hier berekeningen mee gedaan die te vinden zijn in \cref{fig: Kernel_schaarlift_2}.\\
-    \item \textbf{De dimensionering van de members.} De dimensionering van de members zijn uit het python script gehaald, die zijn te vinden in \cref{fig:schaarliften_constanten} en in \cref{fig: Kernel_schaarlift_1}.
+    \item \textbf{Het profiel van de members.} Uit het onderzoek is gebleken dat de members op een zuivere druk worden belast. Dit betekend dat er niet voor een specifiek profiel hoeft worden gekozen mits het oppervlak van een doorsnede groot genoeg is. Toch hebben wij voor een koker-profiel gekozen omdat naast de verwachtte krachten langs de members het ook waarschijnlijk is dat er krachten zullen opspelen in andere richtingen. Daarom is voor de zekerheid gekozen voor een koker profiel met de dimensionering% die te vinden is in \cref{fig:schaarliften_constanten} in \cref{se: bijlage_F schaarliften}
+    . Ook zijn hier berekeningen mee gedaan die te vinden zijn in \cref{fig: Kernel_schaarlift_2}.\\
+    \item \textbf{De dimensionering van de members.} De dimensionering van de members zijn uit het python script gehaald, die zijn te vinden in %\cref{fig:schaarliften_constanten} en in 
+    \cref{fig: Kernel_schaarlift_1}.
 \end{enumerate}
 \vspace{\baselineskip}
 
@@ -123,7 +125,7 @@ Voor de schaarliften is naar een aantal dingen gekeken:\\
 
 \begin{figure}[H]
     \includegraphics[width = 80mm]{04_conceptdimensionering/Schaar.PNG}
-    \caption{Kernel van het pyhton script.}
+    \caption{Kernel van het python script.}
     \label{fig: Kernel_schaarlift_2}
 \end{figure}
 \vspace{\baselineskip}
@@ -136,7 +138,8 @@ Voor de schaarliften is naar een aantal dingen gekeken:\\
 
 \textbf{U-profiel aan de onderkant van de kar.}\\
 Er is voor een U-profiel gekozen vanwege de vorm van de belasting. Deze is versimpeld weergegeven in \cref{fig: schets_FBD_uprofiel} te zien. Wanneer de zijkanten als ingeklemd worden beschouwd kan de conclusie worden getrokken dat het onderdeel zowel op buiging als op trek wordt belast. Een geschikt profiel voor dit soort belasting is het U-profiel.\\
-Hiermee is een python script geschreven, zie \cref{se: onderkant_u-profiel} in \cref{Cha: Bijlage_F}. Uit dit script is de dimensionering gehaald, zie \cref{fig:u-profiel_constanten}. Het u-profiel is vervolgens berekend op sterkte en stijfheid er is een krachten- en momentenlijn opgesteld (\cref{fig: momentenlijn_onderkant} \& \cref{fig: krachtenlijn_onderkant}). Uit de momenten en krachtenlijn is gebleken dat het u-profiel de krachten kan hebben, zie \cref{fig: kernel_onderkant}.
+Hiermee is een python script geschreven, zie \cref{se: onderkant_u-profiel} in \cref{Cha:Bijlage_F}. Uit dit script is de dimensionering gehaald%, zie \cref{fig:u-profiel_constanten}
+. Het u-profiel is vervolgens berekend op sterkte en stijfheid er is een krachten- en momentenlijn opgesteld (\cref{fig: momentenlijn_onderkant} \& \cref{fig: krachtenlijn_onderkant}). Uit de momenten en krachtenlijn is gebleken dat het u-profiel de krachten kan hebben, zie \cref{fig: kernel_onderkant}.
 
 \begin{figure}[H]
     \includegraphics[width = 80mm]{04_conceptdimensionering/U-profiel_tekening.jpg}
@@ -196,4 +199,4 @@ De maaklijst bevat de onderdelen die zelf gefabriceerd kunnen worden, hieronder 
 \end{figure}
 
 \section{Bestellijst.}
-Uit de kooplijst is een selectie gemaakt van onderdelen, die samen maximaal 80 euro kostte. 
+Uit de kooplijst is een selectie gemaakt van onderdelen, die samen maximaal 80 euro kostten. 
